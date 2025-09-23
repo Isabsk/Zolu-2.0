@@ -4,7 +4,7 @@ const colorData = [
 	{
 		name: "White",
 		color: "bg-white border",
-		date: "2025-09-23",
+		date: "2025-09-22",
 		description: `“Amma, why are you wearing white?” little Pranavi asked, tugging at her mother’s saree. She was doing a special assignment for her class at Zoho School of Business, where she had to learn about the significance of colors.
 
         “Because it’s the first day of Navaratri,” her mother replied, brushing her hair back. “White stands for purity, peace, and new beginnings. It’s the color that clears the mind and fills the heart with calm. And you know, Pranavi, white is special because it contains all the colors—so it reminds us of endless possibilities.”
@@ -40,7 +40,7 @@ Why did Dove pick a plain white bar? Because white tells the story of purity wit
 	{
 		name: "Red",
 		color: "bg-red-500",
-		date: "2025-09-24",
+		date: "2025-09-23",
 		description: `Red is the color of energy and passion. It grabs attention and stirs emotions. In marketing, red is used to create urgency and excitement, often seen in clearance sales and fast food branding. Red is also the color of love and celebration in many cultures.`,
 		symbolism: "Love, power, courage, and fertility.",
 		occasions: "Popular for weddings, festivals, and celebrations.",
@@ -53,7 +53,7 @@ Why did Dove pick a plain white bar? Because white tells the story of purity wit
 	{
 		name: "Royal Blue",
 		color: "bg-blue-700",
-		date: "2025-09-25",
+		date: "2025-09-24",
 		description: "Royal Blue stands for tranquility and depth.",
 		symbolism: "Trust, loyalty, wisdom, and confidence.",
 		occasions: "Used in formal wear, uniforms, and festive attire.",
@@ -64,7 +64,7 @@ Why did Dove pick a plain white bar? Because white tells the story of purity wit
 	{
 		name: "Yellow",
 		color: "bg-yellow-400",
-		date: "2025-09-26",
+		date: "2025-09-25",
 		description: "Yellow is the color of happiness and optimism.",
 		symbolism: "Joy, intellect, energy, and freshness.",
 		occasions: "Worn during spring festivals and celebrations.",
@@ -75,7 +75,7 @@ Why did Dove pick a plain white bar? Because white tells the story of purity wit
 	{
 		name: "Green",
 		color: "bg-green-500",
-		date: "2025-09-27",
+		date: "2025-09-26",
 		description: "Green signifies growth and harmony.",
 		symbolism: "Nature, fertility, renewal, and safety.",
 		occasions: "Used in harvest festivals and eco-friendly events.",
@@ -86,7 +86,7 @@ Why did Dove pick a plain white bar? Because white tells the story of purity wit
 	{
 		name: "Grey",
 		color: "bg-gray-400",
-		date: "2025-09-28",
+		date: "2025-09-27",
 		description: "Grey is for balance and neutrality.",
 		symbolism: "Sophistication, practicality, timelessness.",
 		occasions: "Popular in business attire and modern design.",
@@ -97,7 +97,7 @@ Why did Dove pick a plain white bar? Because white tells the story of purity wit
 	{
 		name: "Orange",
 		color: "bg-orange-500",
-		date: "2025-09-29",
+		date: "2025-09-28",
 		description: "Orange is vibrant and enthusiastic.",
 		symbolism: "Creativity, enthusiasm, success, and encouragement.",
 		occasions: "Worn during harvest festivals and celebrations.",
@@ -108,7 +108,7 @@ Why did Dove pick a plain white bar? Because white tells the story of purity wit
 	{
 		name: "Peacock Green",
 		color: "bg-teal-700",
-		date: "2025-09-30",
+		date: "2025-09-29",
 		description: "Peacock Green is unique and refreshing.",
 		symbolism: "Beauty, pride, uniqueness, and renewal.",
 		occasions: "Used in festive wear and artistic designs.",
@@ -119,7 +119,7 @@ Why did Dove pick a plain white bar? Because white tells the story of purity wit
 	{
 		name: "Pink",
 		color: "bg-pink-400",
-		date: "2025-10-01",
+		date: "2025-09-30",
 		description: "Pink is playful and loving.",
 		symbolism: "Affection, compassion, sweetness, and romance.",
 		occasions: "Popular for birthdays, baby showers, and romantic events.",

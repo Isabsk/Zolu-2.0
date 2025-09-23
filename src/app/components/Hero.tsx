@@ -1,5 +1,4 @@
 import { LineShadowText } from "@/components/ui/line-shadow-text";
-import { Meteors } from "@/components/ui/meteors";
 import { ShineBorder } from "@/components/ui/shine-border";
 import { SparklesText } from "@/components/ui/sparkles-text";
 
@@ -13,8 +12,7 @@ export default function Hero() {
     };
 
     return (
-        <div className="flex flex-col items-center mx-auto max-w-7xl justify-center px-4 pt-16 sm:pt-20 pb-8 sm:pb-12 lg:px-8 bg-gradient-to-b from-white to-indigo-50 via-white rounded-br-3xl rounded-bl-3xl">
-            <Meteors />
+        <div className="flex flex-col items-center mx-auto max-w-7xl justify-center px-4 pt-16 sm:pt-20 pb-8 sm:pb-12 lg:px-8 rounded-br-3xl rounded-bl-3xl">
             <div className="relative w-full max-w-6xl flex flex-col md:flex-row items-center justify-between text-left px-0 sm:px-4 gap-8 sm:gap-10">
                 {/* Left: Logo and Headings */}
                 <div className="flex-1 flex flex-col items-start justify-center w-full">
@@ -39,7 +37,7 @@ export default function Hero() {
                             onClick={handleGetStarted}
                             className="rounded-lg bg-indigo-600 px-6 sm:px-7 py-3 text-base sm:text-lg font-semibold text-white shadow-md hover:bg-indigo-500 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                         >
-                            Get started
+                            Unlock Colours
                         </button>
                         <a
                             href="https://connect.zoho.in/portal/intranet/forum/post/zolu-2-0-%E2%80%93-a-digital-celebration-of-colors-creativity"
@@ -63,10 +61,10 @@ export default function Hero() {
                             Your browser does not support the video tag.
                         </video>
                         <div className="absolute inset-0 z-10" />
-                        <div className="relative z-20 flex items-center justify-start w-full h-full">
-                            <span className="text-base sm:text-2xl md:text-3xl font-bold text-white drop-shadow-xl px-4 sm:px-8 text-left tracking-wide">
-                                “Navratri is a festival to celebrate the victory of good over evil.”  <br /><br />
-                                <span className="italic font-light">&nbsp;&nbsp;&nbsp;&nbsp;– Anonymous</span>
+                        <div className="relative z-20 flex items-center justify-center w-full h-full">
+                            <span className="text-base text-center sm:text-2xl md:text-5xl font-bold text-white drop-shadow-xl px-4 sm:px-8 tracking-wide">
+                                “Navratri is a festival to celebrate the victory of good over evil.”<br /><br />
+                                <span className="italic font-light"></span>
                             </span>
                         </div>
                     </div>

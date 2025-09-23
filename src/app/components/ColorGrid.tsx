@@ -2,15 +2,15 @@ import { useMemo } from "react";
 import { LockClosedIcon } from "@heroicons/react/24/outline";
 
 const colorData = [
-	{ name: "White", color: "bg-white border", date: "2025-09-23" },
-	{ name: "Red", color: "bg-red-500", date: "2025-09-24", image: "/images/red.jpg" },
-	{ name: "Royal Blue", color: "bg-blue-700", date: "2025-09-25", image: "/images/royal-blue.jpg" },
-	{ name: "Yellow", color: "bg-yellow-400", date: "2025-09-26", image: "/images/yellow.jpg" },
-	{ name: "Green", color: "bg-green-500", date: "2025-09-27", image: "/images/green.jpg" },
-	{ name: "Grey", color: "bg-gray-400", date: "2025-09-28", image: "/images/grey.jpg" },
-	{ name: "Orange", color: "bg-orange-500", date: "2025-09-29", image: "/images/orange.jpg" },
-	{ name: "Peacock Green", color: "bg-teal-700", date: "2025-09-30", image: "/images/peacock-green.jpg" },
-	{ name: "Pink", color: "bg-pink-400", date: "2025-10-01", image: "/images/pink.jpg" },
+	{ name: "White", color: "bg-white border", date: "2025-09-22" },
+	{ name: "Red", color: "bg-red-500", date: "2025-09-23", image: "/images/red.jpg" },
+	{ name: "Royal Blue", color: "bg-blue-700", date: "2025-09-24", image: "/images/royal-blue.jpg" },
+	{ name: "Yellow", color: "bg-yellow-400", date: "2025-09-25", image: "/images/yellow.jpg" },
+	{ name: "Green", color: "bg-green-500", date: "2025-09-26", image: "/images/green.jpg" },
+	{ name: "Grey", color: "bg-gray-400", date: "2025-09-27", image: "/images/grey.jpg" },
+	{ name: "Orange", color: "bg-orange-500", date: "2025-09-28", image: "/images/orange.jpg" },
+	{ name: "Peacock Green", color: "bg-teal-700", date: "2025-09-29", image: "/images/peacock-green.jpg" },
+	{ name: "Pink", color: "bg-pink-400", date: "2025-09-30", image: "/images/pink.jpg" },
 ];
 
 function formatDate(dateStr: string) {

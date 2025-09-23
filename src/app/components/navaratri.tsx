@@ -1,7 +1,7 @@
 export default function Navaratri() {
 	return (
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 sm:py-10">
-            <div className="bg-white py-24 sm:py-32">
+            <div className="py-24 sm:py-32">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="flex flex-col md:flex-row items-center justify-between gap-16">
                         {/* Left: Heading and Paragraphs */}
@@ -24,7 +24,7 @@ export default function Navaratri() {
                             <img
                                 src="/navaratri.png"
                                 alt="Navaratri"
-                                className="w-full max-w-md rounded-2xl shadow-lg border border-indigo-100 object-contain"
+                                className="w-full max-w-md object-contain"
                             />
                         </div>
                     </div>
