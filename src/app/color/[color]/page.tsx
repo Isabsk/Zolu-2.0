@@ -7,29 +7,30 @@ const colorData = [
 		date: "2025-09-22",
 		description: `Amma, why are you wearing white?” little Pranavi asked, tugging at her mother’s saree. She was working on an assignment about the psychology of colours. 
 
-        “Because it is the first day of Navaratri,” her mother smiled. “White stands for purity, peace, and new beginnings. It clears the mind, calms the heart, and holds all colours within it—reminding us of endless possibilities.”
+        White stands for purity, peace, and new beginnings. It clears the mind, calms the heart, and holds all colours within it reminding us of endless possibilities.”
 
         “Like a fresh notebook?” Pranavi beamed.
 
-         “Exactly. And even in business, white symbolizes trust and simplicity. Imagine Dove’s plain white bar. Dove chose white because it silently tells the story of purity, and its plain bar attracts customers who instantly feel it is safe, gentle, and honest. They do not need noise; white speaks without words.”
+        “Exactly. And, wonderfully, today marks the first day of Navaratri,” her mother smiled. Day 1 of Navratri honors Shailaputri, goddess of beginnings. Even in business, white symbolizes trust and simplicity. Imagine Dove’s plain white bar. Dove chose white because it silently tells the story of purity, and its plain bar attracts customers who instantly feel it is safe, gentle, and honest. They do not need noise, white speaks without words.”
 
-         Day 1 of Navratri honors Shailaputri, goddess of beginnings. White reflects that uncluttered start the same feeling you get when unboxing an Apple product or holding Dove’s bar of soap. White isn’t empty; it’s powerful. It signals peace, trust, and the promise of something new.
+        White reflects that uncluttered start the same feeling you get when holding Dove’s bar of soap. White isn’t empty; it’s powerful. It signals peace, trust, and the promise of something new.
 
-         Imagine walking into a store where everything is white—the walls, shelves, and packaging. No clutter, just calm. Instantly, you feel safe, curious, and open. That’s the psychology of white in marketing.
+        Imagine walking into a store where everything is white the walls, shelves, and packaging. No clutter, just calm. Instantly, you feel safe, curious, and open. That’s the psychology of white in marketing.
 
-         That morning, Pranavi chose her whitest dress, ready to celebrate Navaratri, embracing tradition, business lessons, and her own fresh beginnings.`,
-		symbolism: `🎉 Celebrate White Day, Zoho!
+        That morning, Pranavi chose her whitest dress, ready to celebrate Navaratri, embracing tradition, business lessons, and her own fresh beginnings.`,
+		symbolism: `Celebrate White Day, Zoho!
 
         Wear white, spot white objects, and capture the aesthetic around you! 
         
         Post your photos on Connect under #ZoluDiaries—the most creative post will get a special shout out on our website. Let’s make this Navaratri full of clarity, peace, and style!`,
-		related: ["Silver", "Ivory"],
+		
+        related: ["Silver", "Ivory"],
 		funFact: "White walls and packaging make spaces or objects look bigger, cleaner, and more open.",
 		images: [
-			"https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/ae966d185497393.65650f316dfff.jpg",
-			"http://mir-s3-cdn-cf.behance.net/project_modules/2800_webp/3f0a87195466033.660e104c7c38b.png",
+            "/white-1.png",
+			"https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/ae966d185497393.65650f316dfff.jpg"
 		],
-		quizUrl: "https://www.classmarker.com/online-test/start/?quiz=r3p68d25ad2427a7",
+		quizUrl: "https://forms.fillout.com/t/eFVpHtnjFtus",
 	},
 	{
 		name: "Red",
@@ -161,6 +162,23 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 				</h1>
 			</div>
 
+			{/* Menti/Typeform Quiz Section - moved above Info Section */}
+			{unlocked && colorInfo.quizUrl && (
+				<section className="max-w-2xl mx-auto py-10 px-4">
+					<h2 className="text-2xl font-bold mb-4">Take the Quiz!</h2>
+					<div className="rounded-lg overflow-hidden shadow-lg" style={{ height: "550px" }}>
+						<iframe
+							src={colorInfo.quizUrl}
+							width="100%"
+							height="100%"
+							allowFullScreen
+							title={`${colorInfo.name} Quiz`}
+							className="w-full h-full border-0"
+						/>
+					</div>
+				</section>
+			)}
+
 			{/* Info Section */}
 			<section className="max-w-2xl mx-auto py-10 px-4">
 				<h2 className="text-3xl font-bold mb-4">Why {colorInfo.name}?</h2>
@@ -169,7 +187,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						<div className="whitespace-pre-line text-lg mb-6">
 							{colorInfo.description}
 						</div>
-                        {/* Collage Section */}
+						{/* Collage Section */}
 						{colorInfo.images && colorInfo.images.length > 0 && (
 							<div className="flex flex-col sm:flex-row gap-4 mt-8">
 								{colorInfo.images.map((img, idx) => (
@@ -182,7 +200,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 								))}
 							</div>
 						)}
-						<p className="mb-2 mt-10">
+						<p className="mb-2 mt-10 text-xl">
 							{colorInfo.symbolism}
 						</p>
 					</>
@@ -195,23 +213,6 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 					</div>
 				)}
 			</section>
-
-			{/* Menti/Typeform Quiz Section */}
-			{unlocked && colorInfo.quizUrl && (
-				<section className="max-w-2xl mx-auto py-10 px-4">
-					<h2 className="text-2xl font-bold mb-4">Take the Quiz!</h2>
-					<div className="rounded-lg overflow-hidden shadow-lg" style={{ height: "750px" }}>
-						<iframe
-							src={colorInfo.quizUrl}
-							width="100%"
-							height="100%"
-							allowFullScreen
-							title={`${colorInfo.name} Quiz`}
-							className="w-full h-full border-0"
-						/>
-					</div>
-				</section>
-			)}
 
 			{/* Card Details Section */}
 			{unlocked && (
