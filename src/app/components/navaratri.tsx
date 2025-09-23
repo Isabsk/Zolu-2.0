@@ -12,10 +12,10 @@ export default function Navaratri() {
                                 <AuroraText>Zolu 2.0</AuroraText>
                             </h2>
                             <h2 className="text-4xl font-bold tracking-tight text-gray-900 mb-6">
-                                Celebrate the Colors of Navaratri
+                                Celebrate the Colours of Navaratri
                             </h2>
                             <p className="text-lg text-gray-700 mb-4">
-                                Navaratri is a vibrant festival that celebrates art, music, dance, and the joy of coming together as a community. From the energetic Garba and Dandiya nights to the colorful Golu displays, it's a season of creativity, culture, and connection.   
+                                Navaratri is a vibrant festival that celebrates art, music, dance, and the joy of coming together as a community. From the energetic Garba and Dandiya nights to the colourful Golu displays, it's a season of creativity, culture, and connection.   
                             </p>
                             <p className="text-lg text-gray-700 mb-4">
                                 Brought to you by Zoho Schools of Business, Zolu 2.0 is more than just a festival it's an experience. We&apos;ve brought together colours from different worlds: Marketing and Festivity and have connected them into activities this week.
