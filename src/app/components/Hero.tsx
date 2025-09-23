@@ -129,7 +129,7 @@ export default function Hero() {
                             Unlock Colours
                         </button>
                         <a
-                            href="https://connect.zoho.in/portal/intranet/forum/post/zolu-2-0-%E2%80%93-a-digital-celebration-of-colors-creativity"
+                            href="https://connect.zoho.in/portal/intranet/forum/post/celebrate-navaratri-with-zolu-2-0-%E2%80%93-a-zoho-school-of-business-initiative"
                             className="text-base sm:text-lg font-semibold text-indigo-600 underline underline-offset-4 hover:text-indigo-800 transition"
                         >
                             Learn more <span aria-hidden="true">→</span>
