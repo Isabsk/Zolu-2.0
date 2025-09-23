@@ -25,7 +25,7 @@ const colorData = [
         Post your photos on Connect under #ZoluDiaries—the most creative post will get a special shout out on our website. Let’s make this Navaratri full of clarity, peace, and style!`,
 		
         related: ["Silver", "Ivory"],
-		funFact: "White walls and packaging make spaces or objects look bigger, cleaner, and more open.",
+		funFact: "Up to 90% of a consumer’s initial impression of a product is based on color alone, with white often conveying purity, simplicity, and trustworthiness.",
 		images: [
             "/white-1.png",
 			"https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/ae966d185497393.65650f316dfff.jpg"
