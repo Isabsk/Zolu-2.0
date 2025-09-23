@@ -5,15 +5,30 @@ const colorData = [
 		name: "White",
 		color: "bg-white border",
 		date: "2025-09-23",
-		description: `Day 1 of Navratri honors Shailaputri, symbol of beginnings. It starts with white uncluttered and pure. The same way, when you open an Apple box or hold Dove’s white bar, you feel the calm assurance of a clean start. White is not empty. It is powerful, because it signals peace, trust, and the promise of something new.
+		description: `“Amma, why are you wearing white?” little Pranavi asked, tugging at her mother’s saree. She was doing a special assignment for her class at Zoho School of Business, where she had to learn about the significance of colors.
+
+        “Because it’s the first day of Navaratri,” her mother replied, brushing her hair back. “White stands for purity, peace, and new beginnings. It’s the color that clears the mind and fills the heart with calm. And you know, Pranavi, white is special because it contains all the colors—so it reminds us of endless possibilities.”
+
+        Pranavi’s eyes lit up. “Like a fresh notebook?”
+
+“Exactly! And even in business, white symbolizes trust, simplicity, and clarity—just like brands such as Dove and Nike show through their designs.”
+“So wearing white makes me calm and powerful?” Pranavi grinned.
+
+“Exactly, my dear. White reminds us that every beginning can be pure, peaceful —it’s also the beginning of Zolu in Zoho.”
+That day, Pranavi picked her whitest dress, ready to celebrate the first day of Navaratri at Zoho, embracing both tradition and her own fresh beginnings.
+        
+        
+        Day 1 of Navratri honors Shailaputri, symbol of beginnings. It starts with white uncluttered and pure. The same way, when you open an Apple box or hold Dove’s white bar, you feel the calm assurance of a clean start. White is not empty. It is powerful, because it signals peace, trust, and the promise of something new.
 
 Imagine walking into a store where everything is pure white — the shelves, the walls, even the packaging. There's no noise, no clutter. Instantly, you feel calm, safe, and curious. That is the psychology of white in marketing.
 
 We can see white in places like Health care, Tech, Spiritual wellbeing, Luxury.
 Why did Dove pick a plain white bar? Because white tells the story of purity without saying a word. Dove markets themselves as “1/4 moisturising cream” and customers believe it without batting an eye. Their advertisements are also filmed with white background and the models also wear white which subtly reinforces trust.`,
-		symbolism: "Purity, innocence, cleanliness, and new beginnings.",
-		occasions: "Worn on religious occasions, weddings, and spiritual ceremonies.",
-		culture: "In India, white is often worn during mourning, but also for auspicious beginnings. In Western cultures, white is the color of weddings and celebrations.",
+		symbolism: `🎉 Celebrate White Day, Zoho!
+
+        Wear white, spot white objects, and capture the aesthetic around you! 
+        
+        Post your photos on Connect under #ZoluDiaries—the most creative post will get a special shout out on our website. Let’s make this Navaratri full of clarity, peace, and style!`,
 		related: ["Silver", "Ivory"],
 		funFact: "White reflects all wavelengths of light, making it the color of sunlight.",
 		images: ["https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/ae966d185497393.65650f316dfff.jpg", "http://mir-s3-cdn-cf.behance.net/project_modules/2800_webp/3f0a87195466033.660e104c7c38b.png"],
@@ -169,13 +184,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 							</div>
 						)}
 						<p className="mb-2 mt-10">
-							<strong>Symbolism:</strong> {colorInfo.symbolism}
-						</p>
-						<p className="mb-2">
-							<strong>Occasions:</strong> {colorInfo.occasions}
-						</p>
-						<p className="mb-2">
-							<strong>Cultural Significance:</strong> {colorInfo.culture}
+							{colorInfo.symbolism}
 						</p>
 					</>
 				) : (
