@@ -5,25 +5,19 @@ const colorData = [
 		name: "White",
 		color: "bg-white border",
 		date: "2025-09-22",
-		description: `“Amma, why are you wearing white?” little Pranavi asked, tugging at her mother’s saree. She was doing a special assignment for her class at Zoho School of Business, where she had to learn about the significance of colors.
+		description: `Amma, why are you wearing white?” little Pranavi asked, tugging at her mother’s saree. She was working on an assignment about the psychology of colours. 
 
-        “Because it’s the first day of Navaratri,” her mother replied, brushing her hair back. “White stands for purity, peace, and new beginnings. It’s the color that clears the mind and fills the heart with calm. And you know, Pranavi, white is special because it contains all the colors, so it reminds us of endless possibilities.”
+        “Because it is the first day of Navaratri,” her mother smiled. “White stands for purity, peace, and new beginnings. It clears the mind, calms the heart, and holds all colours within it—reminding us of endless possibilities.”
 
-        Pranavi’s eyes lit up. “Like a fresh notebook?”
+        “Like a fresh notebook?” Pranavi beamed.
 
-“Exactly! And even in business, white symbolizes trust, simplicity, and clarity just like brands such as Dove and Nike show through their designs.”
-“So wearing white makes me calm and powerful?” Pranavi grinned.
+         “Exactly. And even in business, white symbolizes trust and simplicity. Imagine Dove’s plain white bar. Dove chose white because it silently tells the story of purity, and its plain bar attracts customers who instantly feel it is safe, gentle, and honest. They do not need noise; white speaks without words.”
 
-“Exactly, my dear. White reminds us that every beginning can be pure, peaceful it’s also the beginning of Zolu in Zoho.”
-That day, Pranavi picked her whitest dress, ready to celebrate the first day of Navaratri at Zoho, embracing both tradition and her own fresh beginnings.
-        
-        
-        Day 1 of Navratri honors Shailaputri, symbol of beginnings. It starts with white uncluttered and pure. The same way, when you open an Apple box or hold Dove’s white bar, you feel the calm assurance of a clean start. White is not empty. It is powerful, because it signals peace, trust, and the promise of something new.
+         Day 1 of Navratri honors Shailaputri, goddess of beginnings. White reflects that uncluttered start the same feeling you get when unboxing an Apple product or holding Dove’s bar of soap. White isn’t empty; it’s powerful. It signals peace, trust, and the promise of something new.
 
-Imagine walking into a store where everything is pure white - the shelves, the walls, even the packaging. There's no noise, no clutter. Instantly, you feel calm, safe, and curious. That is the psychology of white in marketing.
+         Imagine walking into a store where everything is white—the walls, shelves, and packaging. No clutter, just calm. Instantly, you feel safe, curious, and open. That’s the psychology of white in marketing.
 
-We can see white in places like Health care, Tech, Spiritual wellbeing, Luxury.
-Why did Dove pick a plain white bar? Because white tells the story of purity without saying a word. Dove markets themselves as “1/4 moisturising cream” and customers believe it without batting an eye. Their advertisements are also filmed with white background and the models also wear white which subtly reinforces trust.`,
+         That morning, Pranavi chose her whitest dress, ready to celebrate Navaratri, embracing tradition, business lessons, and her own fresh beginnings.`,
 		symbolism: `🎉 Celebrate White Day, Zoho!
 
         Wear white, spot white objects, and capture the aesthetic around you! 
@@ -40,7 +34,7 @@ Why did Dove pick a plain white bar? Because white tells the story of purity wit
 	{
 		name: "Red",
 		color: "bg-red-500",
-		date: "2025-09-23",
+		date: "2099-09-24", // Set a future date to keep it locked
 		description: `Red is the color of energy and passion. It grabs attention and stirs emotions. In marketing, red is used to create urgency and excitement, often seen in clearance sales and fast food branding. Red is also the color of love and celebration in many cultures.`,
 		symbolism: "Love, power, courage, and fertility.",
 		occasions: "Popular for weddings, festivals, and celebrations.",

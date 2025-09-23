@@ -9,16 +9,19 @@ export default function Navaratri() {
                         {/* Left: Heading and Paragraphs */}
                         <div className="flex-1 flex flex-col items-start justify-center">
                             <h2 className="text-3xl font-semibold text-indigo-600 mb-2">
-                                <AuroraText>ZOLU 2.0</AuroraText>
+                                <AuroraText>Zolu 2.0</AuroraText>
                             </h2>
                             <h2 className="text-4xl font-bold tracking-tight text-gray-900 mb-6">
                                 Celebrate the Colors of Navaratri
                             </h2>
                             <p className="text-lg text-gray-700 mb-4">
-                                Navaratri is a vibrant festival that celebrates art, music, dance, and the joy of coming together as a community. From energetic Garba and Dandiya nights to the colorful Golu displays, it’s a season of creativity, culture, and connection. 
+                                Navaratri is a vibrant festival that celebrates art, music, dance, and the joy of coming together as a community. From energetic Garba and Dandiya nights to the colorful Golu displays, it's a season of creativity, culture, and connection.  
+                            </p>
+                            <p className="text-lg text-gray-700 mb-4">
+                                Brought to you by Zoho Schools of Business, Zolu 2.0 is more than just a festival — it's an experience. We’ve brought together colours from different worlds, Marketing and Festivity connecting them into activities this week.
                             </p>
                             <p className="text-lg text-gray-700">
-                                Brought to you by Zoho School of Business, Zolu 2.0 is more than just a festival — it’s an experience. Expect exciting activities, thought-provoking quizzes, team games, inspiring workshops, and moments of pure entertainment. Together, let’s make these nine days a journey of joy, discovery, and unforgettable memories.
+                                Expect exciting activities, thought-provoking quizzes, team games and moments of learning and entertainment. Together, let's make these nine days a journey of joy, discovery, and unforgettable.
                             </p>
                         </div>
                         {/* Right: Navaratri Image */}
