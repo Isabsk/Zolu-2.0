@@ -3,6 +3,8 @@
 import Navaratri from './components/navaratri';
 import ColorGrid from './components/ColorGrid';
 import Hero from './components/Hero';
+import { ScrollVelocityContainer, ScrollVelocityRow } from '@/components/ui/scroll-based-velocity';
+import { WarpBackground } from '@/components/ui/warp-background';
 
 export default function Home() {
   return (

@@ -30,7 +30,7 @@ export default function Hero() {
                         </SparklesText>
                     </h1>
                     <p className="mt-2 text-base sm:text-lg md:text-2xl font-medium text-gray-600 mb-8 sm:mb-10 max-w-2xl">
-                        Zolu brings us together to honor the festive spirit of Navaratri with music, dance, and moments of togetherness that light up our workplace.
+                        Bringing to you Zolu 2.0, a digital utsava of fun quizzes, learning and friendly competition. We’ve blended tech and tradition to give you the perfect amalgamation of Navaratri and Zoho with a splash of Gen Z perspectives.
                     </p>
                     <div className="mt-4 flex flex-wrap items-center gap-4">
                         <button
