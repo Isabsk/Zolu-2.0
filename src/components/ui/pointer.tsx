@@ -9,8 +9,6 @@ import {
 } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 
-interface PointerProps extends Omit<HTMLMotionProps<"div">, "ref"> {}
-
 /**
  * A custom pointer component that displays an animated cursor.
  * Add this as a child to any component to enable a custom pointer when hovering.
@@ -19,12 +17,8 @@ interface PointerProps extends Omit<HTMLMotionProps<"div">, "ref"> {}
  * @component
  * @param {PointerProps} props - The component props
  */
-export function Pointer({
-  className,
-  style,
-  children,
-  ...props
-}: PointerProps): React.ReactNode {
+export function Pointer(props: React.HTMLAttributes<HTMLDivElement>): React.ReactNode {
+  const { className, style, children } = props;
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   const [isActive, setIsActive] = useState<boolean>(false);

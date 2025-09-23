@@ -1,4 +1,3 @@
-import { ScrollProgress } from "@/components/ui/scroll-progress";
 import { LockClosedIcon } from "@heroicons/react/24/outline";
 
 const colorData = [
@@ -133,7 +132,6 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 
 	return (
 		<div className="min-h-screen w-full bg-gray-50">
-			<ScrollProgress />
 			{/* Banner Section */}
 			<div
 				className="relative h-64 flex items-center justify-center"
