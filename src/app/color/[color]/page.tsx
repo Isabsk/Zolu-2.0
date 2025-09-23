@@ -214,9 +214,9 @@ export default function ColorPage({ params }: { params: { color: string } }) {
                                     href={colorInfo.connectUrl}
                                     target="_blank"
                                     rel="noopener noreferrer"
+                                    className="inline-block px-8 py-3 rounded-lg font-semibold text-white shadow-lg bg-gradient-to-r from-pink-500 via-indigo-500 to-yellow-400 bg-[length:200%_200%] animate-gradient-x transition hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-indigo-400"
                                 >
-                                    <RainbowButton size="lg" className="text-center">Drop Your Pics Here</RainbowButton>
-                                    
+                                    Drop Your Pics Here
                                 </a>
                             </div>
                         )}
