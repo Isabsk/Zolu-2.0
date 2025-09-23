@@ -31,7 +31,11 @@ Why did Dove pick a plain white bar? Because white tells the story of purity wit
         Post your photos on Connect under #ZoluDiaries—the most creative post will get a special shout out on our website. Let’s make this Navaratri full of clarity, peace, and style!`,
 		related: ["Silver", "Ivory"],
 		funFact: "White reflects all wavelengths of light, making it the color of sunlight.",
-		images: ["https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/ae966d185497393.65650f316dfff.jpg", "http://mir-s3-cdn-cf.behance.net/project_modules/2800_webp/3f0a87195466033.660e104c7c38b.png"],
+		images: [
+			"https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/ae966d185497393.65650f316dfff.jpg",
+			"http://mir-s3-cdn-cf.behance.net/project_modules/2800_webp/3f0a87195466033.660e104c7c38b.png",
+		],
+		quizUrl: "https://form.typeform.com/to/bMSSVSP0",
 	},
 	{
 		name: "Red",
@@ -44,6 +48,7 @@ Why did Dove pick a plain white bar? Because white tells the story of purity wit
 		related: ["Maroon", "Crimson"],
 		funFact: "Red is the first color babies see after black and white.",
 		images: ["/images/red-1.jpg", "/images/red-2.jpg"],
+		quizUrl: "https://www.typeform.com/to/red-quiz-url",
 	},
 	{
 		name: "Royal Blue",
@@ -197,19 +202,19 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 				)}
 			</section>
 
-			{/* Menti Quiz Section */}
-			{unlocked && (
+			{/* Menti/Typeform Quiz Section */}
+			{unlocked && colorInfo.quizUrl && (
 				<section className="max-w-2xl mx-auto py-10 px-4">
 					<h2 className="text-2xl font-bold mb-4">Take the Quiz!</h2>
 					<div className="aspect-video rounded-lg overflow-hidden shadow-lg">
 						<iframe
-							src="https://www.menti.com/alkiq9w3qzyy"
-							width="100%"
-							height="200%"
-							allowFullScreen
-							title="Menti Quiz"
-							className="w-full h-full border-0"
-						/>
+                            src={colorInfo.quizUrl}
+                            width="100%"
+                            height="100%"
+                            allowFullScreen
+                            title={`${colorInfo.name} Quiz`}
+                            className="w-full h-full border-0"
+                        />
 					</div>
 				</section>
 			)}
