@@ -1,4 +1,3 @@
-import { RainbowButton } from "@/components/ui/rainbow-button";
 import { LockClosedIcon } from "@heroicons/react/24/outline";
 
 const colorData = [
