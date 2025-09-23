@@ -25,28 +25,30 @@ const colorData = [
         
         Post your photos on Connect under #ZoluDiaries—the most creative post will get a special shout out on our website. Let’s make this Navaratri full of clarity, peace, and style!`,
 		
-        related: ["Silver", "Ivory"],
 		funFact: "Up to 90% of a consumer’s initial impression of a product is based on color alone, with white often conveying purity, simplicity, and trustworthiness.",
 		images: [
             "/white-1.png",
 			"https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/ae966d185497393.65650f316dfff.jpg"
 		],
-		quizUrl: "https://forms.fillout.com/t/eFVpHtnjFtus",
-		connectUrl: "https://connect.zoho.in/portal/intranet/forum/post/celebrate-navaratri-with-zolu-2-0-%E2%80%93-a-zoho-school-of-business-initiative",
+		quizUrl: "https://forms.fillout.com/t/eFVpHtnjFtus"
 	},
 	{
 		name: "Red",
 		color: "bg-red-500",
-		date: "2099-09-24", // Set a future date to keep it locked
-		description: `Red is the color of energy and passion. It grabs attention and stirs emotions. In marketing, red is used to create urgency and excitement, often seen in clearance sales and fast food branding. Red is also the color of love and celebration in many cultures.`,
-		symbolism: "Love, power, courage, and fertility.",
-		occasions: "Popular for weddings, festivals, and celebrations.",
-		culture: "In China, red is the color of luck and prosperity. In India, brides traditionally wear red saris.",
-		related: ["Maroon", "Crimson"],
-		funFact: "Red is the first color babies see after black and white.",
-		images: ["/images/red-1.jpg", "/images/red-2.jpg"],
-		quizUrl: "https://www.typeform.com/to/red-quiz-url",
-		connectUrl: "https://connect.zoho.in/portal/intranet/forum/post/zolu-2-0-red-day",
+		date: "2025-09-23",
+		description: `The second day of Navaratri is draped in red a colour that feels alive, the spark in a flame, the pulse that makes a festival electric. In Navaratri it signifies power and devotion, but beyond that, it drives how we shop, watch, and even dress. Wearing red is more than tradition; it’s stepping into your own power. It’s for those who lead, stand out, and get remembered.
+ 
+        Red has a magnetic pull. That’s why malls shout “SALE” in red and online shops flash red “BUY NOW” buttons. It’s not a coincidence it’s strategy. Red makes moments feel urgent, impossible to ignore.
+
+        The biggest brands know this. Coca-Cola owns its vibrant red can. Netflix dares you to binge with its bold red logo. YouTube’s red button screams “hit play now.” Red is never passive it demands action, choice, and feeling.
+
+        Even everyday products use it. Eveready’s “Laal Eveready” and “Give Me Red” built decades of trust and power. And on a global scale, Bono’s (RED) campaign turned colour into cause—partnering with Apple, Nike, and Starbucks to fight HIV/AIDS. Each red product symbolized urgency, action, and hope.
+
+        Zoho taps into the same psychology. From red “Get Started” CTAs to product logos like SalesIQ, Recruit, and Show, red isn’t just design it’s strategy. Just like global giants, Zoho proves red drives decisions, even in business software.`,
+		symbolism: `We all long for a burst of motivation, and here’s our chance to let our energy out! For Day 2 – Red: Energy & Courage, share your favorite motivational quote. Post it under Connect with the hashtag #ZoluDiaries and tag a colleague who motivates you when you’re feeling down. Let’s spread courage, positivity, and unstoppable energy across the Zoho community!`,
+		funFact: "Psychologists say it can quicken the heartbeat, spark excitement, and create a sense of urgency.",
+		images: ["/red-1.png", "/red-2.png"],
+		quizUrl: "https://forms.fillout.com/t/c3RYsWfv9Fus"
 	},
 	{
 		name: "Royal Blue",
@@ -54,9 +56,6 @@ const colorData = [
 		date: "2025-09-24",
 		description: "Royal Blue stands for tranquility and depth.",
 		symbolism: "Trust, loyalty, wisdom, and confidence.",
-		occasions: "Used in formal wear, uniforms, and festive attire.",
-		culture: "Royal blue is associated with royalty and authority in many cultures.",
-		related: ["Navy Blue", "Sky Blue"],
 		funFact: "Royal blue was created for Queen Charlotte of England in the 18th century.",
 	},
 	{
@@ -154,7 +153,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 			<div className="absolute top-4 left-4 z-30">
 				<Link
 					href="/"
-					className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/90 shadow hover:bg-white transition text-indigo-700 font-semibold text-base sm:text-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+					className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/90 shadow hover:bg-white transition text-dark-700 font-semibold text-base sm:text-lg focus:outline-none focus:ring-2 focus:ring-dark-400"
 				>
 					{/* Left Arrow SVG */}
 					<svg
@@ -225,22 +224,20 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 							</div>
 						)}
 						
-						<p className="mb-2 mt-10 text-xl">
+						<p className="mb-2 mt-10 text-xl font-medium">
 							{colorInfo.symbolism}
 						</p>
-                        {/* Connect Post Button */}
-						{colorInfo.connectUrl && (
-                            <div className="mt-6 w-full text-center">
-                                <a
-                                    href={colorInfo.connectUrl}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="inline-block px-8 py-3 rounded-lg font-semibold text-white shadow-lg bg-gradient-to-r from-pink-500 via-indigo-500 to-yellow-400 bg-[length:200%_200%] animate-gradient-x transition hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-indigo-400"
-                                >
-                                    Drop Your Pics Here
-                                </a>
-                            </div>
-                        )}
+						{/* Connect Post Button */}
+						<div className="mt-6 w-full text-center">
+							<a
+								href="https://connect.zoho.in/portal/intranet/forum/post/celebrate-navaratri-with-zolu-2-0-%E2%80%93-a-zoho-school-of-business-initiative"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="inline-block px-8 py-3 rounded-lg font-semibold text-white shadow-lg bg-gradient-to-r from-pink-500 via-indigo-500 to-yellow-400 bg-[length:200%_200%] animate-gradient-x transition hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-indigo-400"
+							>
+								Drop Your Pics Here
+							</a>
+						</div>
 					</>
 				) : (
 					<div className="flex flex-col items-center py-8">
