@@ -146,7 +146,7 @@ export default function Hero() {
                                     slide.color === "White" ? "text-gray-900" : "text-white"
                                 }`}
                             >
-                                "{slide.quote}"
+                                &quot;{slide.quote}&quot;
                                 <br /><br />
                                 <span className="italic font-light">{slide.color}</span>
                             </span>
