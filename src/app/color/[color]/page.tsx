@@ -31,7 +31,7 @@ const colorData = [
 			"https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/ae966d185497393.65650f316dfff.jpg"
 		],
 		quizUrl: "https://forms.fillout.com/t/eFVpHtnjFtus",
-		connectUrl: "https://connect.zoho.in/portal/intranet/forum/post/zolu-2-0-white-day",
+		connectUrl: "https://connect.zoho.in/portal/intranet/forum/post/celebrate-navaratri-with-zolu-2-0-%E2%80%93-a-zoho-school-of-business-initiative",
 	},
 	{
 		name: "Red",
