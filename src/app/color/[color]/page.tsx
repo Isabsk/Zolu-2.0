@@ -1,3 +1,4 @@
+import { RainbowButton } from "@/components/ui/rainbow-button";
 import { LockClosedIcon } from "@heroicons/react/24/outline";
 
 const colorData = [
@@ -31,6 +32,7 @@ const colorData = [
 			"https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/ae966d185497393.65650f316dfff.jpg"
 		],
 		quizUrl: "https://forms.fillout.com/t/eFVpHtnjFtus",
+		connectUrl: "https://connect.zoho.in/portal/intranet/forum/post/zolu-2-0-white-day",
 	},
 	{
 		name: "Red",
@@ -44,6 +46,7 @@ const colorData = [
 		funFact: "Red is the first color babies see after black and white.",
 		images: ["/images/red-1.jpg", "/images/red-2.jpg"],
 		quizUrl: "https://www.typeform.com/to/red-quiz-url",
+		connectUrl: "https://connect.zoho.in/portal/intranet/forum/post/zolu-2-0-red-day",
 	},
 	{
 		name: "Royal Blue",
@@ -200,9 +203,23 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 								))}
 							</div>
 						)}
+						
 						<p className="mb-2 mt-10 text-xl">
 							{colorInfo.symbolism}
 						</p>
+                        {/* Connect Post Button */}
+						{colorInfo.connectUrl && (
+                            <div className="mt-6 w-full text-center">
+                                <a
+                                    href={colorInfo.connectUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <RainbowButton size="lg" className="text-center">Drop Your Pics Here</RainbowButton>
+                                    
+                                </a>
+                            </div>
+                        )}
 					</>
 				) : (
 					<div className="flex flex-col items-center py-8">
@@ -218,15 +235,6 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 			{unlocked && (
 				<section className="max-w-2xl mx-auto py-10 px-4">
 					<div className="bg-white rounded-xl shadow-xl p-8">
-						<h3 className="text-xl font-bold mb-2">Details</h3>
-						<ul className="mb-4">
-							<li>
-								<strong>Unlock Date:</strong> {formatDate(colorInfo.date)}
-							</li>
-							<li>
-								<strong>Related Colors:</strong> {colorInfo.related.join(", ")}
-							</li>
-						</ul>
 						<div className="bg-gray-100 rounded-lg p-4">
 							<h4 className="font-bold mb-2">Fun Fact</h4>
 							<p>{colorInfo.funFact}</p>

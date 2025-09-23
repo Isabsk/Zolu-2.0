@@ -18,7 +18,7 @@ export default function Navaratri() {
                                 Navaratri is a vibrant festival that celebrates art, music, dance, and the joy of coming together as a community. From energetic Garba and Dandiya nights to the colorful Golu displays, it is a season of creativity, culture, and connection.  
                             </p>
                             <p className="text-lg text-gray-700 mb-4">
-                                Brought to you by Zoho Schools of Business, Zolu 2.0 is more than just a festival — it is an experience. We&apos;ve brought together colours from different worlds, Marketing and Festivity connecting them into activities this week.
+                                Brought to you by Zoho Schools of Business, Zolu 2.0 is more than just a festival, it is an experience. We&apos;ve brought together colours from different worlds, Marketing and Festivity connecting them into activities this week.
                             </p>
                             <p className="text-lg text-gray-700">
                                 Expect exciting activities, thought-provoking quizzes, team games and moments of learning and entertainment. Together, let&apos;s make these nine days a journey of joy, discovery, and unforgettable.
