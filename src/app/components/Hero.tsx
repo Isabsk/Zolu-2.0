@@ -117,7 +117,7 @@ export default function Hero() {
                         </SparklesText>
                     </h1>
                     <p className="mt-2 text-base sm:text-lg md:text-2xl font-medium text-gray-600 mb-8 sm:mb-10 max-w-2xl">
-                        Bringing to you Zolu 2.0, a digital utsava of  learning, fun quizzes and friendly competition. 
+                        Bringing to you Zolu 2.0, a digital utsava of  learning, fun quizzes, and friendly competition. 
                         <br /> <br />
                         We’ve blended tech and tradition to give you the perfect amalgamation of Navaratri and Zoho with a splash of Gen Z perspectives.
                     </p>
