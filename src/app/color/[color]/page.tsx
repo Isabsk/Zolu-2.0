@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { LockClosedIcon } from "@heroicons/react/24/outline";
 
 const colorData = [
@@ -148,7 +149,28 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 	const unlocked = today >= unlockDate;
 
 	return (
-		<div className="min-h-screen w-full bg-gray-50">
+		<div className="min-h-screen w-full bg-gray-50 relative">
+			{/* Back to Home Button */}
+			<div className="absolute top-4 left-4 z-30">
+				<Link
+					href="/"
+					className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/90 shadow hover:bg-white transition text-indigo-700 font-semibold text-base sm:text-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+				>
+					{/* Left Arrow SVG */}
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						strokeWidth={2}
+						stroke="currentColor"
+						className="w-5 h-5 sm:w-6 sm:h-6"
+					>
+						<path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+					</svg>
+					<span className="hidden xs:inline">Back to Home</span>
+				</Link>
+			</div>
+
 			{/* Banner Section */}
 			<div
 				className="relative h-64 flex items-center justify-center"
