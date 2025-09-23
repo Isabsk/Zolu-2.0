@@ -30,7 +30,7 @@ Why did Dove pick a plain white bar? Because white tells the story of purity wit
         
         Post your photos on Connect under #ZoluDiaries—the most creative post will get a special shout out on our website. Let’s make this Navaratri full of clarity, peace, and style!`,
 		related: ["Silver", "Ivory"],
-		funFact: "White reflects all wavelengths of light, making it the color of sunlight.",
+		funFact: "White walls and packaging make spaces or objects look bigger, cleaner, and more open.",
 		images: [
 			"https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/ae966d185497393.65650f316dfff.jpg",
 			"http://mir-s3-cdn-cf.behance.net/project_modules/2800_webp/3f0a87195466033.660e104c7c38b.png",
