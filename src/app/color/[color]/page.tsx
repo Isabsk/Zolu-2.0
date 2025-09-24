@@ -53,7 +53,7 @@ const colorData = [
 	{
 		name: "Royal Blue",
 		color: "bg-blue-700",
-		date: "2025-09-24",
+		date: "2026-09-24",
 		description: "Royal Blue stands for tranquility and depth.",
 		symbolism: "Trust, loyalty, wisdom, and confidence.",
 		funFact: "Royal blue was created for Queen Charlotte of England in the 18th century.",

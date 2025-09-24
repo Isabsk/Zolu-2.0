@@ -5,7 +5,7 @@ import { ShineBorder } from "@/components/ui/shine-border";
 const colorData = [
 	{ name: "White", color: "bg-white", date: "2025-09-22" },
 	{ name: "Red", color: "bg-red-500", date: "2025-09-23", image: "/images/red.jpg" },
-	{ name: "Royal Blue", color: "bg-blue-700", date: "2025-09-24", image: "/images/royal-blue.jpg" },
+	{ name: "Royal Blue", color: "bg-blue-700", date: "2026-09-24", image: "/images/royal-blue.jpg" },
 	{ name: "Yellow", color: "bg-yellow-400", date: "2025-09-25", image: "/images/yellow.jpg" },
 	{ name: "Green", color: "bg-green-500", date: "2025-09-26", image: "/images/green.jpg" },
 	{ name: "Grey", color: "bg-gray-400", date: "2025-09-27", image: "/images/grey.jpg" },
