@@ -6,6 +6,7 @@ const colorData = [
 		name: "White",
 		color: "bg-white border",
 		date: "2025-09-22",
+		title: "Why White?",
 		description: `Amma, why are you wearing white?” little Pranavi asked, tugging at her mother’s saree. She was working on an assignment about the psychology of colours. 
 
         White stands for purity, peace, and new beginnings. It clears the mind, calms the heart, and holds all colours within it reminding us of endless possibilities.”
@@ -23,7 +24,7 @@ const colorData = [
 
         Wear white, spot white objects, and capture the aesthetic around you! 
         
-        Post your photos on Connect under #ZoluDiaries—the most creative post will get a special shout out on our website. Let’s make this Navaratri full of clarity, peace, and style!`,
+        Post your photos on Connect under #ZoluDiaries—themost creative post will get a special shout out on our website. Let’s make this Navaratri full of clarity, peace, and style!`,
 		
 		funFact: "Up to 90% of a consumer’s initial impression of a product is based on color alone, with white often conveying purity, simplicity, and trustworthiness.",
 		images: [
@@ -36,6 +37,7 @@ const colorData = [
 		name: "Red",
 		color: "bg-red-500",
 		date: "2025-09-23",
+		title: "Red tells a different story",
 		description: `The second day of Navaratri is draped in red a colour that feels alive, the spark in a flame, the pulse that makes a festival electric. In Navaratri it signifies power and devotion, but beyond that, it drives how we shop, watch, and even dress. Wearing red is more than tradition; it’s stepping into your own power. It’s for those who lead, stand out, and get remembered.
  
         Red has a magnetic pull. That’s why malls shout “SALE” in red and online shops flash red “BUY NOW” buttons. It’s not a coincidence it’s strategy. Red makes moments feel urgent, impossible to ignore.
@@ -54,75 +56,87 @@ const colorData = [
 		name: "Royal Blue",
 		color: "bg-blue-700",
 		date: "2026-09-24",
+		title: "Why Royal Blue?",
 		description: "Royal Blue stands for tranquility and depth.",
 		symbolism: "Trust, loyalty, wisdom, and confidence.",
 		funFact: "Royal blue was created for Queen Charlotte of England in the 18th century.",
+		quizUrl: "https://forms.fillout.com/t/royal-blue-quiz",
+		images: [],
 	},
 	{
 		name: "Yellow",
 		color: "bg-yellow-400",
 		date: "2025-09-25",
+		title: "Why Yellow?",
 		description: "Yellow is the color of happiness and optimism.",
 		symbolism: "Joy, intellect, energy, and freshness.",
-		occasions: "Worn during spring festivals and celebrations.",
-		culture: "In Hinduism, yellow is sacred and worn during religious rituals.",
-		related: ["Gold", "Lemon"],
-		funFact: "Yellow is the most visible color from a distance.",
+		quizUrl: "https://forms.fillout.com/t/yellow-quiz",
+		images: [],
 	},
 	{
 		name: "Green",
 		color: "bg-green-500",
 		date: "2025-09-26",
+		title: "Why Green?",
 		description: "Green signifies growth and harmony.",
 		symbolism: "Nature, fertility, renewal, and safety.",
 		occasions: "Used in harvest festivals and eco-friendly events.",
 		culture: "Green is considered auspicious in Islam and is the color of paradise.",
 		related: ["Olive", "Mint"],
 		funFact: "Green is the color most commonly found in nature.",
+		images: [],
 	},
 	{
 		name: "Grey",
 		color: "bg-gray-400",
 		date: "2025-09-27",
+		title: "Why Grey?",
 		description: "Grey is for balance and neutrality.",
 		symbolism: "Sophistication, practicality, timelessness.",
 		occasions: "Popular in business attire and modern design.",
 		culture: "Grey is often used to represent wisdom and maturity.",
 		related: ["Silver", "Charcoal"],
 		funFact: "Grey is the only color that is both a shade and a tone.",
+		images: [],
 	},
 	{
 		name: "Orange",
 		color: "bg-orange-500",
 		date: "2025-09-28",
+		title: "Why Orange?",
 		description: "Orange is vibrant and enthusiastic.",
 		symbolism: "Creativity, enthusiasm, success, and encouragement.",
 		occasions: "Worn during harvest festivals and celebrations.",
 		culture: "In Hinduism, orange (saffron) is sacred and worn by monks.",
 		related: ["Peach", "Amber"],
 		funFact: "Orange is named after the fruit, not the other way around.",
+		images: [],
 	},
 	{
 		name: "Peacock Green",
 		color: "bg-teal-700",
 		date: "2025-09-29",
+		title: "Why Peacock Green?",
 		description: "Peacock Green is unique and refreshing.",
 		symbolism: "Beauty, pride, uniqueness, and renewal.",
 		occasions: "Used in festive wear and artistic designs.",
 		culture: "Inspired by the Indian peacock, a national bird symbolizing grace.",
 		related: ["Turquoise", "Emerald"],
 		funFact: "Peacock feathers appear green due to microscopic structures that reflect light.",
+		images: [],
 	},
 	{
 		name: "Pink",
 		color: "bg-pink-400",
 		date: "2025-09-30",
+		title: "Why Pink?",
 		description: "Pink is playful and loving.",
 		symbolism: "Affection, compassion, sweetness, and romance.",
 		occasions: "Popular for birthdays, baby showers, and romantic events.",
 		culture: "Pink is associated with femininity in Western cultures.",
 		related: ["Rose", "Magenta"],
 		funFact: "Pink was once considered a masculine color in Europe.",
+		images: [],
 	},
 ];
 
@@ -204,7 +218,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 
 			{/* Info Section */}
 			<section className="max-w-2xl mx-auto py-10 px-4">
-				<h2 className="text-3xl font-bold mb-4">Why {colorInfo.name}?</h2>
+				<h2 className="text-3xl font-bold mb-4">{colorInfo.title}</h2>
 				{unlocked ? (
 					<>  
 						<div className="whitespace-pre-line text-lg mb-6">

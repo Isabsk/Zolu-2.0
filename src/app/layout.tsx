@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Zolu 2.0 - Nine Days, Endless Fun & Learning!",
-  description: "Built by me and only me",
+  title: "Zolu 2.0 - Nine Days, Endless Learning & Fun!",
+  description: "A Zoho School of Business initiative",
 };
 
 export default function RootLayout({
