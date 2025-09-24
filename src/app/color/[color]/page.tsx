@@ -150,7 +150,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 	return (
 		<div className="min-h-screen w-full bg-gray-50 relative">
 			{/* Back to Home Button */}
-			<div className="absolute top-4 left-4 z-30">
+			<div className="fixed top-4 left-4 z-30">
 				<Link
 					href="/"
 					className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/90 shadow hover:bg-white transition text-dark-700 font-semibold text-base sm:text-lg focus:outline-none focus:ring-2 focus:ring-dark-400"
