@@ -122,17 +122,17 @@ export default function Hero() {
                         We’ve blended tech and tradition to give you the perfect amalgamation of Navaratri and Zoho with a splash of Gen Z perspectives.
                     </p>
                     <div className="mt-4 flex flex-wrap items-center gap-4">
-                        <button
+                        <button id="unlockColours"
                             onClick={handleGetStarted}
                             className="rounded-lg bg-indigo-600 px-6 sm:px-7 py-3 text-base sm:text-lg font-semibold text-white shadow-md hover:bg-indigo-500 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                         >
                             Unlock Colours
                         </button>
-                        <a
+                        <a 
                             href="https://connect.zoho.in/portal/intranet/forum/post/celebrate-navaratri-with-zolu-2-0-%E2%80%93-a-zoho-school-of-business-initiative"
-                            className="text-base sm:text-lg font-semibold text-indigo-600 underline underline-offset-4 hover:text-indigo-800 transition"
-                        >
-                            Learn more <span aria-hidden="true">→</span>
+                            className="text-base border-b-2 border-indigo-600 sm:text-lg font-semibold text-indigo-600 hover:text-indigo-800 transition"
+                        ><button id="learnMore">Learn more </button>
+                             <span aria-hidden="true"> →</span>
                         </a>
                     </div>
                 </div>
