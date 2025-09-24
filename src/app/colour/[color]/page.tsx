@@ -500,7 +500,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 				{/* Connect Post Button */}
 				<div className="mt-6 w-full text-center">
 					<a
-						href="https://connect.zoho.in/portal/intranet/forum/post/celebrate-navaratri-with-zolu-2-0-%E2%80%93-a-zoho-school-of-business-initiative"
+						href="https://connect.zoho.in/portal/intranet/forum/post/with-gratitude-we-continue-celebrating-zolu-2-0"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="inline-block px-8 py-3 rounded-lg font-semibold text-white shadow-lg bg-gradient-to-r from-pink-500 via-indigo-500 to-yellow-400 bg-[length:200%_200%] animate-gradient-x transition hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-indigo-400"
