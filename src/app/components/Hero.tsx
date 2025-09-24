@@ -99,7 +99,7 @@ export default function Hero() {
     };
 
     return (
-        <div className="flex flex-col items-center mx-auto max-w-7xl justify-center px-4 pt-16 sm:pt-20 pb-8 sm:pb-12 lg:px-8 rounded-br-3xl rounded-bl-3xl">
+        <div className="flex flex-col items-center mx-auto max-w-7xl justify-center px-4 pt-40 sm:pt-40 pb-8 sm:pb-12 lg:px-8 rounded-br-3xl rounded-bl-3xl">
             <div className="relative w-full max-w-6xl flex flex-col md:flex-row items-center justify-between text-left px-0 sm:px-4 gap-8 sm:gap-10">
                 {/* Left: Logo and Headings */}
                 <div className="flex-1 flex flex-col items-start justify-center w-full">

@@ -1,0 +1,22 @@
+:root {
+  --font-geist-sans: sans-serif;
+  --font-geist-mono: monospace;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-geist-sans);
+  background-color: #f9fafb; /* Matches bg-gray-50 */
+  color: #111827; /* Matches text-gray-900 */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
