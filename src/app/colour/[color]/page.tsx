@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { LockClosedIcon } from "@heroicons/react/24/outline";
+import Slider from "@/app/components/Slider";
 
 const colorData = [
 	{
@@ -26,78 +27,46 @@ const colorData = [
 	{
 		name: "Yellow",
 		color: "bg-yellow-400",
-		date: "2026-09-25",
-		title: "Why Yellow?",
-		description: "Yellow is the color of happiness and optimism.",
-		symbolism: "Joy, intellect, energy, and freshness.",
-		quizUrl: "https://forms.fillout.com/t/yellow-quiz",
-		images: [],
+		date: "2025-09-25",
+		funFact: "About 75% of fruits that ripen turn yellow as a signal to eat.",
+		quizUrl: "https://forms.fillout.com/t/qFK16PQxZPus",
+		slides: ["/slider/1.png", "/slider/2.png", "/slider/3.png", "/slider/4.png", "/slider/5.png", "/slider/6.png", "/slider/7.png", "/slider/8.png", "/slider/9.png", "/slider/10.png", "/slider/11.png", "/slider/12.png", "/slider/13.png", "/slider/14.png", "/slider/15.png", "/slider/16.png", "/slider/17.png", "/slider/18.png", "/slider/19.png", "/slider/20.png"]
 	},
 	{
 		name: "Green",
 		color: "bg-green-500",
 		date: "2025-09-26",
-		title: "Why Green?",
-		description: "Green signifies growth and harmony.",
-		symbolism: "Nature, fertility, renewal, and safety.",
-		occasions: "Used in harvest festivals and eco-friendly events.",
-		culture: "Green is considered auspicious in Islam and is the color of paradise.",
-		related: ["Olive", "Mint"],
-		funFact: "Green is the color most commonly found in nature.",
-		images: [],
+		funFact: "Green is the most restful color for the human eye and symbolizes growth, harmony, and freshness.",
+		quizUrl: "https://forms.fillout.com/t/yellow-quiz"
 	},
 	{
 		name: "Grey",
 		color: "bg-gray-400",
 		date: "2025-09-27",
-		title: "Why Grey?",
-		description: "Grey is for balance and neutrality.",
-		symbolism: "Sophistication, practicality, timelessness.",
-		occasions: "Popular in business attire and modern design.",
-		culture: "Grey is often used to represent wisdom and maturity.",
-		related: ["Silver", "Charcoal"],
-		funFact: "Grey is the only color that is both a shade and a tone.",
-		images: [],
+		funFact: "Grey is often seen as a symbol of balance, calmness, and sophistication — a bridge between black and white.",
+		quizUrl: "https://forms.fillout.com/t/yellow-quiz",
 	},
 	{
 		name: "Orange",
 		color: "bg-orange-500",
 		date: "2025-09-28",
-		title: "Why Orange?",
-		description: "Orange is vibrant and enthusiastic.",
-		symbolism: "Creativity, enthusiasm, success, and encouragement.",
-		occasions: "Worn during harvest festivals and celebrations.",
-		culture: "In Hinduism, orange (saffron) is sacred and worn by monks.",
-		related: ["Peach", "Amber"],
-		funFact: "Orange is named after the fruit, not the other way around.",
-		images: [],
+		funFact: "Orange is known to stimulate creativity, enthusiasm, and adventure — it’s the color of warmth and fun.",
+		quizUrl: "https://forms.fillout.com/t/yellow-quiz",
 	},
 	{
 		name: "Peacock Green",
 		color: "bg-teal-700",
 		date: "2025-09-29",
-		title: "Why Peacock Green?",
-		description: "Peacock Green is unique and refreshing.",
-		symbolism: "Beauty, pride, uniqueness, and renewal.",
-		occasions: "Used in festive wear and artistic designs.",
-		culture: "Inspired by the Indian peacock, a national bird symbolizing grace.",
-		related: ["Turquoise", "Emerald"],
-		funFact: "Peacock feathers appear green due to microscopic structures that reflect light.",
-		images: [],
+		funFact: "Peacock Green represents elegance and uniqueness, inspired by the majestic feathers of a peacock.",
+		quizUrl: "https://forms.fillout.com/t/yellow-quiz",
 	},
 	{
 		name: "Pink",
 		color: "bg-pink-400",
 		date: "2025-09-30",
-		title: "Why Pink?",
-		description: "Pink is playful and loving.",
-		symbolism: "Affection, compassion, sweetness, and romance.",
-		occasions: "Popular for birthdays, baby showers, and romantic events.",
-		culture: "Pink is associated with femininity in Western cultures.",
-		related: ["Rose", "Magenta"],
-		funFact: "Pink was once considered a masculine color in Europe.",
-		images: [],
-	},
+		funFact: "Pink symbolizes compassion, love, and kindness — often associated with positivity and warmth.",
+		quizUrl: "https://forms.fillout.com/t/yellow-quiz",
+	}
 ];
 
 function formatDate(dateStr: string) {
@@ -522,26 +491,80 @@ export default function ColorPage({ params }: { params: { color: string } }) {
       case "yellow":
         return (
           <section className="max-w-2xl mx-auto py-10 px-4">
-            <h2 className="text-3xl font-bold mb-4">Yellow Day Fun</h2>
-            <p className="text-lg mb-6">
-              Yellow is all about joy and optimism. Post a picture of something
-              that made you smile today.
-            </p>
-            <div className="flex gap-4">
-              <img
-                src="/yellow-activity-1.jpg"
-                alt="Yellow Activity"
-                className="rounded-lg shadow-lg w-1/2"
-              />
-              <img
-                src="/yellow-activity-2.jpg"
-                alt="Yellow Activity"
-                className="rounded-lg shadow-lg w-1/2"
-              />
-            </div>
+			<section className="max-w-2xl mx-auto py-10 px-4">
+				<h2 className="text-2xl font-bold mb-4">Take the Quiz!</h2>
+				<div className="rounded-lg overflow-hidden shadow-lg" style={{ height: "550px" }}>
+					<iframe
+						src={colorInfo.quizUrl}
+						width="100%"
+						height="100%"
+						allowFullScreen
+						title={`${colorInfo.name} Quiz`}
+						className="w-full h-full border-0"
+					/>
+				</div>
+				<div className="whitespace-pre-line text-lg my-12">
+					<Slider slides={colorInfo.slides ?? []} />
+				</div>
+				<div className="mb-2 mt-10 text-xl font-medium">
+					<p className="mb-3">
+						Radiate Energy with Your <strong>Yellow Attire</strong>
+					</p>
+
+					<p className="mb-3">
+						As we celebrate colours, let us celebrate <strong>you</strong> for emitting brightness and joy with your
+						<strong> Yellow</strong> outfits. Showcase your vibrancy by posting your pictures in the
+						<strong> Connect Post comments</strong> with <strong>#ZohoKolam</strong> and <strong>#Yellove</strong>.
+					</p>
+
+					<p className="mb-3">
+						As you continue to sparkle and dazzle, keep encouraging us. Stay joyful during this commemoration of
+						<strong> Yellow</strong>!
+					</p>
+				</div>
+				{/* Connect Post Button */}
+				<div className="mt-6 w-full text-center">
+					<a
+						href="https://connect.zoho.in/portal/intranet/forum/post/with-gratitude-we-continue-celebrating-zolu-2-0"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="inline-block px-8 py-3 rounded-lg font-semibold text-white shadow-lg bg-gradient-to-r from-pink-500 via-indigo-500 to-yellow-400 bg-[length:200%_200%] animate-gradient-x transition hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-indigo-400"
+					>
+						<button id="dropPics">Drop Your Pics Here</button>
+					</a>
+				</div>
+			</section>
+
+            <section className="max-w-2xl mx-auto px-4">
+				<div className="bg-white rounded-xl shadow-xl p-8">
+					<div className="bg-gray-100 rounded-lg p-4">
+						<h4 className="font-bold mb-2">Fun Fact</h4>
+						<p>{colorInfo.funFact}</p>
+					</div>
+				</div>
+			</section>
           </section>
         );
-      // Add cases for other colors...
+	  case "green":
+        return (
+			<></>
+		);	
+      case "grey":
+        return (
+			<></>
+		);
+	  case "orange":
+        return (
+			<></>
+		);
+	  case "peacock green":
+        return (
+			<></>
+		);
+	  case "pink":
+        return (
+			<></>
+		);			
       default:
         return (
           <section className="max-w-2xl mx-auto py-10 px-4">
