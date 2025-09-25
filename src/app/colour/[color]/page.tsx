@@ -26,7 +26,7 @@ const colorData = [
 	{
 		name: "Yellow",
 		color: "bg-yellow-400",
-		date: "2025-09-25",
+		date: "2026-09-25",
 		title: "Why Yellow?",
 		description: "Yellow is the color of happiness and optimism.",
 		symbolism: "Joy, intellect, energy, and freshness.",
