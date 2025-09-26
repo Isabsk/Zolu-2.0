@@ -572,6 +572,13 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						className="w-full h-full border-0"
 					/>
 				</div>
+				<div className="flex mt-6 gap-4">
+					<img
+						src="/green.gif"
+						alt="White Activity"
+						className="rounded-lg shadow-lg w-full object-cover"
+					/>
+					</div>
 				<div className="whitespace-pre-line text-lg my-12">
 					<p>
 						<strong>“Green isn&apos;t just a colour we see, it&apos;s a feeling we experience.”</strong>  
@@ -648,6 +655,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						className="rounded-lg shadow-lg w-full object-cover"
 					/>
 					</div>
+					
 				<div className="mb-2 mt-10 text-xl font-medium">
 					<p className="mb-3">Feel the Nature Vibes By Wearing Green</p>
 
