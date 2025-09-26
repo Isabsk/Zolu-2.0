@@ -35,9 +35,9 @@ const colorData = [
 	{
 		name: "Green",
 		color: "bg-green-500",
-		date: "2026-09-26",
+		date: "2025-09-26",
 		funFact: "Green is the most restful color for the human eye and symbolizes growth, harmony, and freshness.",
-		quizUrl: "https://forms.fillout.com/t/yellow-quiz"
+		quizUrl: "https://forms.fillout.com/t/8gY8Y5D5LHus"
 	},
 	{
 		name: "Grey",
@@ -547,7 +547,109 @@ export default function ColorPage({ params }: { params: { color: string } }) {
         );
 	  case "green":
         return (
-			<></>
+			<><section className="max-w-2xl mx-auto py-10 px-4">
+			<section className="max-w-2xl mx-auto py-10 px-4">
+				<h2 className="text-2xl font-bold mb-4">Take the Quiz!</h2>
+				<div className="rounded-lg overflow-hidden shadow-lg" style={{ height: "550px" }}>
+					<iframe
+						src={colorInfo.quizUrl}
+						width="100%"
+						height="100%"
+						allowFullScreen
+						title={`${colorInfo.name} Quiz`}
+						className="w-full h-full border-0"
+					/>
+				</div>
+				<div className="whitespace-pre-line text-lg my-12">
+					<p>
+						<strong>“Amma, why are you wearing white?”</strong> little Pranavi asked, 
+						tugging at her mother’s saree. She was working on an assignment about the psychology of colours.
+					</p>
+
+					<p className="mt-4">
+						<em>
+						White stands for purity, peace, and new beginnings. It clears the mind, calms the heart,
+						and holds all colours within it reminding us of endless possibilities.
+						</em>
+					</p>
+
+					<p className="mt-4">
+						<strong>“Like a fresh notebook?”</strong> Pranavi beamed.
+					</p>
+
+					<p className="mt-4">
+						<strong>“Exactly.</strong> And, wonderfully, today marks the first day of Navaratri,” her mother
+						smiled. Day 1 of Navratri honors Shailaputri, goddess of beginnings. Even in business,
+						white symbolizes trust and simplicity. Imagine Dove’s plain white bar. Dove chose white because it
+						silently tells the story of purity, and its plain bar attracts customers who instantly feel it is safe,
+						gentle, and honest. They do not need noise, white speaks without words.”
+					</p>
+
+					<p className="mt-4">
+						White reflects that uncluttered start — the same feeling you get when holding Dove’s bar of soap.
+						White isn’t empty; it’s powerful. It signals peace, trust, and the promise of something new.
+					</p>
+
+					<p className="mt-4">
+						Imagine walking into a store where everything is white — the walls, shelves, and packaging. 
+						No clutter, just calm. Instantly, you feel safe, curious, and open. That’s the psychology of white in marketing.
+					</p>
+
+					<p className="mt-4">
+						That morning, Pranavi chose her whitest dress, ready to celebrate Navaratri, embracing tradition, 
+						business lessons, and her own fresh beginnings.
+					</p>
+				</div>
+				{/* Collage Section */}
+					<div className="flex gap-4">
+					<img
+						src="/white-1.png"
+						alt="White Activity"
+						className="rounded-lg shadow-lg w-1/2 object-cover aspect-[4/3]"
+					/>
+					<img
+						src="https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/ae966d185497393.65650f316dfff.jpg"
+						alt="White Activity"
+						className="rounded-lg shadow-lg w-1/2 object-cover aspect-[4/3]"
+					/>
+					</div>
+				<p className="mb-2 mt-10 text-xl font-medium">
+					<p className="mb-3">Celebrate White Day, Zoho!</p>
+
+					<p className="mb-3">
+						Wear white, spot white objects, and capture the aesthetic around you!
+					</p>
+
+					<p className="mb-3">
+						Post your photos on <strong>Connect</strong> under <strong>#ZoluDiaries</strong> — 
+						the most creative post will get a special shout out on our website.
+					</p>
+
+					<p className="font-semibold">
+						Let’s make this Navaratri full of clarity, peace, and style!
+					</p>
+				</p>
+				{/* Connect Post Button */}
+				<div className="mt-6 w-full text-center">
+					<a
+						href="https://connect.zoho.in/portal/intranet/forum/post/celebrate-navaratri-with-zolu-2-0-%E2%80%93-a-zoho-school-of-business-initiative"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="inline-block px-8 py-3 rounded-lg font-semibold text-white shadow-lg bg-gradient-to-r from-pink-500 via-indigo-500 to-yellow-400 bg-[length:200%_200%] animate-gradient-x transition hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-indigo-400"
+					>
+						<button id="dropPics">Drop Your Pics Here</button>
+					</a>
+				</div>
+			</section>
+            <section className="max-w-2xl mx-auto px-4">
+				<div className="bg-white rounded-xl shadow-xl p-8">
+					<div className="bg-gray-100 rounded-lg p-4">
+						<h4 className="font-bold mb-2">Fun Fact</h4>
+						<p>{colorInfo.funFact}</p>
+					</div>
+				</div>
+			</section>
+          </section></>
 		);	
       case "grey":
         return (

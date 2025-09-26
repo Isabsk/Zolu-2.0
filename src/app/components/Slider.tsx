@@ -15,10 +15,6 @@ export default function Slider({ slides }: { slides: string[] }) {
         pagination={{ clickable: true }}
         spaceBetween={30}
         slidesPerView={1}
-        autoplay={{
-          delay: 5000,
-          disableOnInteraction: false,
-        }}
         className="rounded-lg shadow-lg"
       >
         {slides.map((slide, index) => (
