@@ -35,9 +35,10 @@ const colorData = [
 	{
 		name: "Green",
 		color: "bg-green-500",
-		date: "2026-09-26",
+		date: "2025-09-26",
 		funFact: "Green is the most restful color for the human eye and symbolizes growth, harmony, and freshness.",
-		quizUrl: "https://im-a-puzzle.com/share/32b14c5521e5e22"
+		quizUrl: "https://forms.fillout.com/t/6JqzYexnngus",
+		game: "https://im-a-puzzle.com/share/32b14c5521e5e22"
 	},
 	{
 		name: "Grey",
@@ -533,6 +534,17 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						<button id="dropPics">Drop Your Pics Here</button>
 					</a>
 				</div>
+				<h2 className="text-2xl font-bold mb-4">Take the Quiz!</h2>
+				<div className="rounded-lg overflow-hidden shadow-lg" style={{ height: "550px" }}>
+					<iframe
+						src={colorInfo.quizUrl}
+						width="100%"
+						height="100%"
+						allowFullScreen
+						title={`${colorInfo.name} Quiz`}
+						className="w-full h-full border-0"
+					/>
+				</div>
 			</section>
 
             <section className="max-w-2xl mx-auto px-4">
@@ -562,73 +574,96 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 				</div>
 				<div className="whitespace-pre-line text-lg my-12">
 					<p>
-						<strong>“Amma, why are you wearing white?”</strong> little Pranavi asked, 
-						tugging at her mother’s saree. She was working on an assignment about the psychology of colours.
+						<strong>“Green isn’t just a colour we see, it’s a feeling we experience.”</strong>  
+						It soothes, restores, and connects us to nature.
 					</p>
 
 					<p className="mt-4">
 						<em>
-						White stands for purity, peace, and new beginnings. It clears the mind, calms the heart,
-						and holds all colours within it reminding us of endless possibilities.
+						On day five of Navratri, Maa Skandamata embodies nurturing love and harmony, 
+						with green symbolising peace, growth, and prosperous new beginnings.
 						</em>
 					</p>
 
 					<p className="mt-4">
-						<strong>“Like a fresh notebook?”</strong> Pranavi beamed.
+						Brands know how deeply we connect with green’s promise of freshness and growth, 
+						here are some iconic brands and their campaigns where they turned this instinctive 
+						response into powerful storytelling.
 					</p>
 
 					<p className="mt-4">
-						<strong>“Exactly.</strong> And, wonderfully, today marks the first day of Navaratri,” her mother
-						smiled. Day 1 of Navratri honors Shailaputri, goddess of beginnings. Even in business,
-						white symbolizes trust and simplicity. Imagine Dove’s plain white bar. Dove chose white because it
-						silently tells the story of purity, and its plain bar attracts customers who instantly feel it is safe,
-						gentle, and honest. They do not need noise, white speaks without words.”
+						<strong>Tropicana —</strong> Tropicana replaced the dot on the “i” with a green leaf, 
+						reinforcing its natural image and adding freshness to the logo.
+					</p>
+
+					<p className="mt-2">
+						<strong>Spotify —</strong> Spotify’s vibrant green reflects its youthful energy, 
+						spirit of innovation, and dynamic approach to music streaming.
+					</p>
+
+					<p className="mt-2">
+						<strong>Animal Planet —</strong> Animal Planet uses green to evoke nature, harmony, 
+						and life, reinforcing its focus on wildlife, conservation, and adventure.
+					</p>
+
+					<p className="mt-2">
+						<strong>Starbucks —</strong> Starbucks’ green turns every café into a “third place,” 
+						a cozy, welcoming spot between home and work where community and calm meet.
+					</p>
+
+					<p className="mt-2">
+						<strong>Lacoste —</strong> Lacoste is producing 1,775 limited-edition polos, each 
+						representing the remaining population of one of 10 endangered species, in partnership 
+						with the IUCN to support wildlife conservation.
+					</p>
+
+					<p className="mt-2">
+						<a 
+						href="https://youtu.be/qsbCoaUxnhI?feature=shared" 
+						target="_blank" 
+						rel="noopener noreferrer" 
+						className="text-green-600 underline"
+						>
+						Lacoste "SAVE OUR SPECIES" campaign
+						</a>
 					</p>
 
 					<p className="mt-4">
-						White reflects that uncluttered start — the same feeling you get when holding Dove’s bar of soap.
-						White isn’t empty; it’s powerful. It signals peace, trust, and the promise of something new.
+						See the pattern? Each of these brands taps into the subconscious feelings green awakens 
+						in us — trust, freshness, progress, and connection.
 					</p>
 
 					<p className="mt-4">
-						Imagine walking into a store where everything is white — the walls, shelves, and packaging. 
-						No clutter, just calm. Instantly, you feel safe, curious, and open. That’s the psychology of white in marketing.
-					</p>
-
-					<p className="mt-4">
-						That morning, Pranavi chose her whitest dress, ready to celebrate Navaratri, embracing tradition, 
-						business lessons, and her own fresh beginnings.
+						<strong>How does Zoho use green?</strong> Green in Zoho is used to signify growth, 
+						productivity, and freshness. In a suite of tools focused on business efficiency, 
+						project management, and creativity, green highlights features or icons that represent 
+						action, progress, and positive outcomes.
 					</p>
 				</div>
 				{/* Collage Section */}
 					<div className="flex gap-4">
 					<img
-						src="/white-1.png"
+						src="/green-1.png"
 						alt="White Activity"
-						className="rounded-lg shadow-lg w-1/2 object-cover aspect-[4/3]"
-					/>
-					<img
-						src="https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/ae966d185497393.65650f316dfff.jpg"
-						alt="White Activity"
-						className="rounded-lg shadow-lg w-1/2 object-cover aspect-[4/3]"
+						className="rounded-lg shadow-lg w-full object-cover"
 					/>
 					</div>
-				<p className="mb-2 mt-10 text-xl font-medium">
-					<p className="mb-3">Celebrate White Day, Zoho!</p>
+				<div className="mb-2 mt-10 text-xl font-medium">
+					<p className="mb-3">Feel the Nature Vibes By Wearing Green</p>
 
 					<p className="mb-3">
-						Wear white, spot white objects, and capture the aesthetic around you!
+					As we connect to the earth, wear green and celebrate the spirit of Navaratri!
 					</p>
 
 					<p className="mb-3">
-						Post your photos on <strong>Connect</strong> under <strong>#ZoluDiaries</strong> — 
-						the most creative post will get a special shout out on our website.
+					Post your selfies and <strong>golu showcases</strong> on <strong>Connect</strong> in the comments — 
+					let’s fill our feed with refreshing shades of green and festive joy.
 					</p>
 
 					<p className="font-semibold">
-						Let’s make this Navaratri full of clarity, peace, and style!
+					Bring in peace, growth, and harmony this Navaratri!
 					</p>
-				</p>
+				</div>
 				{/* Connect Post Button */}
 				<div className="mt-6 w-full text-center">
 					<a
@@ -639,6 +674,17 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 					>
 						<button id="dropPics">Drop Your Pics Here</button>
 					</a>
+				</div>
+				<h2 className="text-2xl font-bold mb-4 mt-20">Sprite Shuffle</h2>
+				<div className="rounded-lg border border-green-600 overflow-hidden shadow-lg mt-6" style={{ height: "550px" }}>
+					<iframe
+						src={colorInfo.game}
+						width="100%"
+						height="100%"
+						allowFullScreen
+						title={`${colorInfo.name} Quiz`}
+						className="w-full h-full border-0"
+					/>
 				</div>
 			</section>
             <section className="max-w-2xl mx-auto px-4">
