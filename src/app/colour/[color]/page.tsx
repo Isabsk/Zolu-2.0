@@ -624,7 +624,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						rel="noopener noreferrer" 
 						className="text-green-600 underline"
 						>
-						Lacoste "SAVE OUR SPECIES" campaign
+						Lacoste &quot;SAVE OUR SPECIES&quot; campaign
 						</a>
 					</p>
 
