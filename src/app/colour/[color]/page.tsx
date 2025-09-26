@@ -35,9 +35,9 @@ const colorData = [
 	{
 		name: "Green",
 		color: "bg-green-500",
-		date: "2025-09-26",
+		date: "2026-09-26",
 		funFact: "Green is the most restful color for the human eye and symbolizes growth, harmony, and freshness.",
-		quizUrl: "https://forms.fillout.com/t/8gY8Y5D5LHus"
+		quizUrl: "https://im-a-puzzle.com/share/32b14c5521e5e22"
 	},
 	{
 		name: "Grey",
