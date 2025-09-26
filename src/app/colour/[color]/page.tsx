@@ -574,7 +574,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 				</div>
 				<div className="whitespace-pre-line text-lg my-12">
 					<p>
-						<strong>“Green isn’t just a colour we see, it’s a feeling we experience.”</strong>  
+						<strong>“Green isn&apos;t just a colour we see, it&apos;s a feeling we experience.”</strong>  
 						It soothes, restores, and connects us to nature.
 					</p>
 
@@ -586,7 +586,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 					</p>
 
 					<p className="mt-4">
-						Brands know how deeply we connect with green’s promise of freshness and growth, 
+						Brands know how deeply we connect with green&apos;s promise of freshness and growth, 
 						here are some iconic brands and their campaigns where they turned this instinctive 
 						response into powerful storytelling.
 					</p>
@@ -597,7 +597,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 					</p>
 
 					<p className="mt-2">
-						<strong>Spotify —</strong> Spotify’s vibrant green reflects its youthful energy, 
+						<strong>Spotify —</strong> Spotify&apos;s vibrant green reflects its youthful energy, 
 						spirit of innovation, and dynamic approach to music streaming.
 					</p>
 
@@ -607,7 +607,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 					</p>
 
 					<p className="mt-2">
-						<strong>Starbucks —</strong> Starbucks’ green turns every café into a “third place,” 
+						<strong>Starbucks —</strong> Starbucks&apos;s green turns every café into a “third place,” 
 						a cozy, welcoming spot between home and work where community and calm meet.
 					</p>
 
@@ -657,7 +657,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 
 					<p className="mb-3">
 					Post your selfies and <strong>golu showcases</strong> on <strong>Connect</strong> in the comments — 
-					let’s fill our feed with refreshing shades of green and festive joy.
+					let&apos;s fill our feed with refreshing shades of green and festive joy.
 					</p>
 
 					<p className="font-semibold">
