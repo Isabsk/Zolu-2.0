@@ -738,11 +738,11 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						</p>
 
 						<h3 className="text-xl font-semibold mt-6 mb-2">
-							1980s – Luxury Emerges
+							1980s &ndash; Luxury Emerges
 						</h3>
 						<p className="mb-4">
 							Mercedes-Benz popularized silver-grey as a symbol of class, refinement, and cutting-edge engineering. 
-							The brand&apos;s Automobile campaign in 1981 (by GREY Brazil) emphasized luxury and precision, 
+							The brand&apos;s Automobile campaign in 1981 &#40;by GREY Brazil&#41; emphasized luxury and precision, 
 							reinforcing why grey was the colour of sophistication and setting a benchmark that other premium brands soon followed.
 						</p>
 
@@ -756,7 +756,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						</div>
 
 						<h3 className="text-xl font-semibold mt-10 mb-2">
-							2000s – The Grey Renaissance
+							2000s &ndash; The Grey Renaissance
 						</h3>
 						<p className="mb-4">
 							Apple dominated the tech world with its Grey Revolution, showcasing iMacs, iPods, and 
@@ -774,7 +774,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						</div>
 
 						<h3 className="text-xl font-semibold mt-10 mb-2">
-							2020s – Grey Days
+							2020s &ndash; Grey Days
 						</h3>
 						<p className="mb-4">
 						Life isn't always black and white, there is always a Grey area — 
@@ -786,7 +786,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						</h3>
 
 						<p>
-						Don’t forget to take us to that zone along with you by dropping your 
+						Don&apos;t forget to take us to that zone along with you by dropping your 
 						snapshots on our Connect Post comments!
 						</p>
 					</div>
