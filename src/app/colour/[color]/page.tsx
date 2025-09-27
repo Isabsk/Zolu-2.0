@@ -174,7 +174,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 					</p>
 
 					<p className="font-semibold">
-						Let’s make this Navaratri full of clarity, peace, and style!
+						Let&apos;s make this Navaratri full of clarity, peace, and style!
 					</p>
 				</p>
 				{/* Connect Post Button */}
@@ -225,16 +225,16 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						the spark in a flame, the pulse that makes a festival electric. 
 						In Navaratri, it signifies power and devotion, but beyond that, 
 						it drives how we shop, watch, and even dress. 
-						Wearing red is more than tradition; it’s stepping into your own power. 
-						It’s for those who lead, stand out, and get remembered.
+						Wearing red is more than tradition; it&apos;s stepping into your own power. 
+						It&apos;s for those who lead, stand out, and get remembered.
 					</p>
 
 					<p>
-						Red has a magnetic pull. That’s why malls shout 
+						Red has a magnetic pull. That&apos;s why malls shout 
 						<span className="font-semibold text-red-600"> “SALE” </span> 
 						in red and online shops flash red 
 						<span className="font-semibold text-red-600"> “BUY NOW” </span> 
-						buttons. It’s not a coincidence—it’s strategy. 
+						buttons. It&apos;s not a coincidence—it&apos;s strategy. 
 						Red makes moments feel urgent, impossible to ignore.
 					</p>
 
@@ -242,15 +242,15 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						The biggest brands know this. 
 						<span className="font-semibold"> Coca-Cola </span> owns its vibrant red can. 
 						<span className="font-semibold"> Netflix </span> dares you to binge with its bold red logo. 
-						<span className="font-semibold"> YouTube’s </span> red button screams “hit play now.” 
+						<span className="font-semibold"> YouTubes&apos; </span> red button screams “hit play now.” 
 						Red is never passive—it demands action, choice, and feeling.
 					</p>
 
 					<p>
 						Even everyday products use it. 
-						Eveready’s <span className="italic">“Laal Eveready”</span> and 
+						Eveready&apos;s <span className="italic">“Laal Eveready”</span> and 
 						<span className="italic"> “Give Me Red” </span> built decades of trust and power. 
-						And on a global scale, Bono’s (RED) campaign turned colour into cause—partnering with 
+						And on a global scale, Bono&apos;s (RED) campaign turned colour into cause—partnering with 
 						Apple, Nike, and Starbucks to fight HIV/AIDS. Each red product symbolized urgency, 
 						action, and hope.
 					</p>
@@ -260,7 +260,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						<span className="font-semibold text-red-600"> “Get Started” </span> CTAs 
 						to product logos like <span className="font-semibold">SalesIQ</span>, 
 						<span className="font-semibold"> Recruit</span>, and 
-						<span className="font-semibold"> Show</span>, red isn’t just design—it’s strategy. 
+						<span className="font-semibold"> Show</span>, red isn&apos;t just design—it&apos;s strategy. 
 						Just like global giants, Zoho proves red drives decisions, even in business software.
 					</p>
 
@@ -288,19 +288,19 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 					/>
 					</div>
 				<p className="mb-2 mt-10 text-xl font-medium">
-					<p className="mb-3">Day 2 – Red: Energy &amp; Courage</p>
+					<p className="mb-3">Day 2 &ndash; Red: Energy &amp; Courage</p>
 
 					<p className="mb-3">
-					We all long for a burst of motivation, and here’s our chance to let our energy out!
+					We all long for a burst of motivation, and here&apos;s our chance to let our energy out!
 					</p>
 
 					<p className="mb-3">
 					Share your favorite motivational quote and post it on <strong>Connect</strong> under <strong>#ZoluDiaries</strong> — 
-					don’t forget to tag a colleague who motivates you when you’re feeling down.
+					don&apos;t forget to tag a colleague who motivates you when you&apos;re feeling down.
 					</p>
 
 					<p className="font-semibold">
-					Let’s spread courage, positivity, and unstoppable energy across the Zoho community!
+					Let&apos;s spread courage, positivity, and unstoppable energy across the Zoho community!
 					</p>
 				</p>
 				{/* Connect Post Button */}
@@ -347,7 +347,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 					</h1>
 
 					<p>
-						It’s not just because it’s pretty. Blue works because it makes you trust.
+						It&apos;s not just because it&apos;s pretty. Blue works because it makes you trust.
 						It calms you, connects with you, and yes… sometimes even makes you reach
 						for your wallet without thinking.
 					</p>
@@ -367,7 +367,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 
 					<p>
 						<span className="font-semibold">Blue is pure.</span> Blue is tied to nature:
-						water and sky, symbols of freshness and purity. That’s why{" "}
+						water and sky, symbols of freshness and purity. That&apos;s why{" "}
 						<span className="font-semibold">Nivea</span> chose blue. It communicates
 						trust, care, cleanliness, and timelessness, all while building a globally
 						consistent identity.
@@ -383,7 +383,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 
 					<p>
 						<span className="font-semibold">Blue = Likability.</span> In the U.S., blue
-						is often ranked as the most liked color. Even if it’s not your favorite,
+						is often ranked as the most liked color. Even if it&apos;s not your favorite,
 						very few people dislike it. That universal likability explains why{" "}
 						<span className="font-semibold">Facebook</span> and{" "}
 						<span className="font-semibold">LinkedIn</span> all use blue in their logos.
@@ -401,7 +401,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						<span className="font-semibold">Blue means business.</span> Blue is a safe,
 						predictable, and professional choice. It has long been associated with
 						suits, ties, and corporate trustworthiness.{" "}
-						<span className="font-semibold">IBM’s</span> striped blue logo was inspired
+						<span className="font-semibold">IBM&apos;s</span> striped blue logo was inspired
 						by pinstripe suits, while brands like{" "}
 						<span className="font-semibold">American Express</span>,{" "}
 						<span className="font-semibold">GE</span>, and{" "}
@@ -420,13 +420,13 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 
 					<p>
 						<span className="font-semibold">Blue = Clean and Professional.</span> Brands
-						like <span className="font-semibold">Oral-B</span> use blue to represent
+					 like <span className="font-semibold">Oral-B</span> use blue to represent
 						cleanliness, freshness, and medical trust, while also standing apart from
-						competitors like Colgate’s red.
+						competitors like Colgate&apos;s red.
 					</p>
 
 					<p>
-						Blue isn’t just pretty—it’s strategic. Whether you want your brand to feel
+						Blue isn&apos;t just pretty—it&apos;s strategic. Whether you want your brand to feel
 						fresh, clean, approachable, or professional, the right shade of blue can do
 						the heavy lifting for you.
 					</p>
@@ -734,7 +734,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						<p className="mb-6">
 							Grey was never the “flashy” colour of festivals, quietly standing on Day 6 to symbolize 
 							balance, calm, and grounded nature while other colours stole the spotlight. 
-							To give grey its moment, let's explore how it has silently influenced our lives.
+							To give grey its moment, let&apos;s explore how it has silently influenced our lives.
 						</p>
 
 						<h3 className="text-xl font-semibold mt-6 mb-2">
@@ -777,7 +777,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 							2020s &ndash; Grey Days
 						</h3>
 						<p className="mb-4">
-						Life isn't always black and white, there is always a Grey area — 
+						Life isn&apos;t always black and white, there is always a Grey area — 
 						get into that zone by wearing Grey today!!
 						</p>
 
