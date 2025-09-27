@@ -777,36 +777,36 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 							2020s &ndash; Grey Days
 						</h3>
 						<p className="mb-4">
-						Life isn&apos;t always black and white, there is always a Grey area — 
-						get into that zone by wearing Grey today!!
+							New Balance, the iconic footwear brand known for blending performance with lifestyle, 
+							launched the Grey Days campaign to celebrate heritage, timeless style, and the understated 
+							power of grey, proving that subtlety can be iconic.
 						</p>
 
 						<h3 className="text-xl font-semibold mt-6 mb-2">
-						Join the Zone
+							Recent Years
 						</h3>
-
 						<p>
-						Don&apos;t forget to take us to that zone along with you by dropping your 
-						snapshots on our Connect Post comments!
+							Grey has emerged as a trend in fashion, branding, and tech, proving that balance never 
+							goes out of style.
 						</p>
+						
 					</div>
 				</div>
 				
 					
 				<div className="mb-2 mt-10 text-xl font-medium">
-					<p className="mb-3">Feel the Nature Vibes By Wearing Green</p>
-
-					<p className="mb-3">
-					As we connect to the earth, wear green and celebrate the spirit of Navaratri!
+					<p className="mb-4">
+					Life isn&apos;t always black and white, there is always a Grey area — 
+					get into that zone by wearing Grey today!!
 					</p>
 
-					<p className="mb-3">
-					Post your selfies and <strong>golu showcases</strong> on <strong>Connect</strong> in the comments — 
-					let&apos;s fill our feed with refreshing shades of green and festive joy.
-					</p>
+					<h3 className="text-xl font-semibold mt-6 mb-2">
+					Join the Zone
+					</h3>
 
-					<p className="font-semibold">
-					Bring in peace, growth, and harmony this Navaratri!
+					<p>
+					Don&apos;t forget to take us to that zone along with you by dropping your 
+					snapshots on our Connect Post comments!
 					</p>
 				</div>
 				{/* Connect Post Button */}
