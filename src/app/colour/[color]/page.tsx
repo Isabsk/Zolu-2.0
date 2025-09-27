@@ -52,7 +52,7 @@ const colorData = [
 		color: "bg-orange-500",
 		date: "2025-09-28",
 		funFact: "Orange is known to stimulate creativity, enthusiasm, and adventure — it’s the color of warmth and fun.",
-		quizUrl: "https://forms.fillout.com/t/yellow-quiz",
+		quizUrl: "https://forms.fillout.com/t/55HTEwSqLdus",
 	},
 	{
 		name: "Peacock Green",
@@ -833,7 +833,162 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 		);
 	  case "orange":
         return (
-			<></>
+			<><section className="max-w-2xl mx-auto py-10 px-4">
+			<section className="max-w-2xl mx-auto py-10 px-4">
+				<h2 className="text-2xl font-bold mb-4">Take the Quiz!</h2>
+				<div className="rounded-lg overflow-hidden shadow-lg" style={{ height: "550px" }}>
+					<iframe
+						src={colorInfo.quizUrl}
+						width="100%"
+						height="100%"
+						allowFullScreen
+						title={`${colorInfo.name} Quiz`}
+						className="w-full h-full border-0"
+					/>
+				</div>
+				<div className="whitespace-pre-line text-lg my-12">
+					
+					<p className="mb-4">
+					Ever noticed how some colors just make you feel alive? That&apos;s orange for you. 
+					A hue that grabs attention without shouting, sparks curiosity, and somehow makes 
+					everything feel a little more fun. On Day 7 of Navaratri, orange isn&apos;t just a 
+					color — it&apos;s courage, positivity, and a burst of energy ready to push you forward.
+					</p>
+
+					<p className="mb-4">
+					Globally, its meaning shifts. In the West, it signals approachability and fun. 
+					In India, it&apos;s saffron, symbolizing spirituality, courage, and vitality. 
+					In East Asia, it represents happiness and bravery. That&apos;s why orange works so 
+					well in campaigns across cultures, instantly creating emotional connections 
+					with audiences.
+					</p>
+
+					<h2 className="text-2xl font-semibold mt-6 mb-2">
+					Why Brands Love Orange
+					</h2>
+
+					<h3 className="text-xl font-semibold mt-6 mb-2">
+					Fanta
+					</h3>
+
+					<div className="flex my-6 gap-4">
+					<img
+						src="/orange-1.png"
+						alt="White Activity"
+						className="rounded-lg shadow-lg w-full object-cover"
+					/>
+					</div>
+
+					<p className="mb-4">
+					Their bright orange bottles and &quot;Add Some Fanta Fun&quot; campaigns are hard to ignore. 
+					Orange is playful, energetic, and attention-grabbing, making people feel refreshment before they 
+					even take a sip. Research shows that warm colors like orange can increase appetite and engagement 
+					by up to 30%.
+					</p>
+
+					<h3 className="text-xl font-semibold mt-6 mb-2">
+					Swiggy
+					</h3>
+
+					<div className="flex my-6 gap-4">
+					<img
+						src="/orange-2.png"
+						alt="White Activity"
+						className="rounded-lg shadow-lg w-full object-cover"
+					/>
+					</div>
+
+					<p className="mb-4">
+					Orange is at the heart of Swiggy&apos;s brand identity, from its logo to app interface and campaigns. 
+					The vibrant hue evokes energy, warmth, and appetite, making users feel excited to order food. 
+					Swiggy&apos;s campaigns, like festive Holi billboards in Delhi NCR and playful 10th anniversary visuals, leverage 
+					orange to connect emotionally with customers, signal speed and convenience, and reinforce the brand&apos;s friendly, 
+					approachable personality.
+					</p>
+
+					<h3 className="text-xl font-semibold mt-6 mb-2">
+					HubSpot
+					</h3>
+
+					<div className="flex my-6 gap-4">
+					<img
+						src="/orange-3.png"
+						alt="White Activity"
+						className="rounded-lg shadow-lg w-full object-cover"
+					/>
+					</div>
+
+					<p className="mb-4">
+					Coral-orange CTAs guide users on webinars, landing pages, and courses. Orange communicates 
+					approachability and innovation, nudging users to explore without feeling pressured. Marketing research shows that 
+					orange can increase click-through rates by 10 to 15 percent when used strategically.
+					</p>
+
+					<p className="mb-4 mt-10">
+					Orange works because it&apos;s human. It taps into curiosity, warmth, and creativity. It makes brands approachable yet bold, fun yet fearless. So next time you see a logo, ad, or CTA glowing in orange, ask yourself: Why do I feel excited, energized, or inspired? That is the superpower of a color that doesn&apos;t just get noticed. It moves people, sparks action, and leaves an unforgettable impression.
+					</p>
+
+					<p className="mb-4">
+					For its 10th anniversary in 2024, Swiggy embraced its signature orange across festive visuals like balloons, confetti, and cakes. This vibrant approach not only celebrated the milestone but also reinforced brand identity, evoked joy, and strengthened trust and appetite among users.
+					</p>
+
+					<p className="mb-4">
+					HubSpot&apos;s <strong>&quot;Orange You Growing?&quot;</strong> campaign turned its signature orange into a bold symbol of growth and 
+					energy. Featuring vibrant visuals of orange arrows, flourishing trees, and glowing dashboards, the campaign brought 
+					business success to life in a fresh, dynamic way. By tying progress directly to its iconic brand color, HubSpot made 
+					its message of &quot;growth made simple&quot; both visually striking and deeply memorable.
+					</p>
+					
+				</div>
+					
+				<div className="mb-2 mt-10 text-xl font-medium">
+					<p className="mb-3">Feel the Energy Burst By Wearing Orange</p>
+
+					<p className="mb-3">
+						As we channel courage and positivity, wear orange and celebrate the spirit of Navaratri!
+					</p>
+
+					<p className="mb-3">
+						Post your selfies and <strong>golu showcases</strong> on <strong>Connect</strong> in the comments — 
+						let&apos;s fill our feed with vibrant shades of orange and festive excitement.
+					</p>
+
+					<p className="font-semibold">
+						Bring in courage, energy, and joy this Navaratri!
+					</p>
+				</div>
+				{/* Connect Post Button */}
+				<div className="mt-6 w-full text-center">
+					<a
+						href="https://connect.zoho.in/portal/intranet/forum/post/take-the-festivity-home-with-you-this-weekend-zolu-2-0"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="inline-block px-8 py-3 rounded-lg font-semibold text-white shadow-lg bg-gradient-to-r from-pink-500 via-indigo-500 to-yellow-400 bg-[length:200%_200%] animate-gradient-x transition hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-indigo-400"
+					>
+						<button id="dropPics">Drop Your Pics Here</button>
+					</a>
+				</div>
+				<h2 className="text-2xl font-bold mb-4 mt-20">Peel and pair</h2>
+				<div className="rounded-lg border border-orange-600 overflow-hidden shadow-lg mt-6" style={{ height: "550px" }}>
+					<iframe
+						src="https://p.interacty.me/5f7a4f35bab4597a/iframe.html"
+						width="100%"
+						height="100%"
+						allowFullScreen
+						title={`${colorInfo.name} Quiz`}
+						className="w-full h-full border-0"
+					/>
+				</div>
+			</section>
+            <section className="max-w-2xl mx-auto px-4">
+				<div className="bg-white rounded-xl shadow-xl p-8">
+					<div className="bg-gray-100 rounded-lg p-4">
+						<h4 className="font-bold mb-2">Fun Fact</h4>
+						<p>{colorInfo.funFact}</p>
+					</div>
+				</div>
+			</section>
+          </section></>
 		);
 	  case "peacock green":
         return (
