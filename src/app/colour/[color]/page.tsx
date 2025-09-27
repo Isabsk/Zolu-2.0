@@ -44,7 +44,7 @@ const colorData = [
 		name: "Grey",
 		color: "bg-gray-400",
 		date: "2025-09-27",
-		funFact: "Grey is often seen as a symbol of balance, calmness, and sophistication — a bridge between black and white.",
+		funFact: "Apple’s “Space Grey” became so iconic that other tech brands rushed to release their own grey editions.",
 		quizUrl: "https://forms.fillout.com/t/yellow-quiz",
 	},
 	{
@@ -707,7 +707,129 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 		);	
       case "grey":
         return (
-			<></>
+			<><section className="max-w-2xl mx-auto py-10 px-4">
+			<section className="max-w-2xl mx-auto py-10 px-4">
+				<h2 className="text-2xl font-bold mb-4">Take the Quiz!</h2>
+				<div className="rounded-lg overflow-hidden shadow-lg" style={{ height: "550px" }}>
+					<iframe
+						src={colorInfo.quizUrl}
+						width="100%"
+						height="100%"
+						allowFullScreen
+						title={`${colorInfo.name} Quiz`}
+						className="w-full h-full border-0"
+					/>
+				</div>
+				<div className="flex mt-6 gap-4">
+					<img
+						src="/grey-1.png"
+						alt="White Activity"
+						className="rounded-lg shadow-lg w-full object-cover"
+					/>
+					</div>
+				<div className="whitespace-pre-line text-lg my-12">
+					<h2 className="text-2xl font-bold mb-4">From Dull to Dynamic: Grey&apos;s Journey</h2>
+					<div className="whitespace-pre-line text-lg my-12">
+
+						<p className="mb-6">
+							Grey was never the “flashy” colour of festivals, quietly standing on Day 6 to symbolize 
+							balance, calm, and grounded nature while other colours stole the spotlight. 
+							To give grey its moment, let's explore how it has silently influenced our lives.
+						</p>
+
+						<h3 className="text-xl font-semibold mt-6 mb-2">
+							1980s – Luxury Emerges
+						</h3>
+						<p className="mb-4">
+							Mercedes-Benz popularized silver-grey as a symbol of class, refinement, and cutting-edge engineering. 
+							The brand&apos;s Automobile campaign in 1981 (by GREY Brazil) emphasized luxury and precision, 
+							reinforcing why grey was the colour of sophistication and setting a benchmark that other premium brands soon followed.
+						</p>
+
+						{/* Collage Section */}
+						<div className="flex gap-4">
+						<img
+							src="/grey-2.png"
+							alt="White Activity"
+							className="rounded-lg shadow-lg w-full object-cover"
+						/>
+						</div>
+
+						<h3 className="text-xl font-semibold mt-10 mb-2">
+							2000s – The Grey Renaissance
+						</h3>
+						<p className="mb-4">
+							Apple dominated the tech world with its Grey Revolution, showcasing iMacs, iPods, and 
+							MacBooks in sleek silver-grey aluminium. This campaign highlighted minimalism, durability, 
+							and premium design, setting a trend that influenced phones, laptops, and gaming consoles 
+							for years to come.
+						</p>
+						{/* Collage Section */}
+						<div className="flex gap-4">
+						<img
+							src="/grey-3.png"
+							alt="White Activity"
+							className="rounded-lg shadow-lg w-full object-cover"
+						/>
+						</div>
+
+						<h3 className="text-xl font-semibold mt-10 mb-2">
+							2020s – Grey Days
+						</h3>
+						<p className="mb-4">
+						Life isn't always black and white, there is always a Grey area — 
+						get into that zone by wearing Grey today!!
+						</p>
+
+						<h3 className="text-xl font-semibold mt-6 mb-2">
+						Join the Zone
+						</h3>
+
+						<p>
+						Don’t forget to take us to that zone along with you by dropping your 
+						snapshots on our Connect Post comments!
+						</p>
+					</div>
+				</div>
+				
+					
+				<div className="mb-2 mt-10 text-xl font-medium">
+					<p className="mb-3">Feel the Nature Vibes By Wearing Green</p>
+
+					<p className="mb-3">
+					As we connect to the earth, wear green and celebrate the spirit of Navaratri!
+					</p>
+
+					<p className="mb-3">
+					Post your selfies and <strong>golu showcases</strong> on <strong>Connect</strong> in the comments — 
+					let&apos;s fill our feed with refreshing shades of green and festive joy.
+					</p>
+
+					<p className="font-semibold">
+					Bring in peace, growth, and harmony this Navaratri!
+					</p>
+				</div>
+				{/* Connect Post Button */}
+				<div className="mt-6 w-full text-center">
+					<a
+						href="https://connect.zoho.in/portal/intranet/forum/post/take-the-festivity-home-with-you-this-weekend-zolu-2-0"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="inline-block px-8 py-3 rounded-lg font-semibold text-white shadow-lg bg-gradient-to-r from-pink-500 via-indigo-500 to-yellow-400 bg-[length:200%_200%] animate-gradient-x transition hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-indigo-400"
+					>
+						<button id="dropPics">Drop Your Pics Here</button>
+					</a>
+				</div>
+			</section>
+            <section className="max-w-2xl mx-auto px-4">
+				<div className="bg-white rounded-xl shadow-xl p-8">
+					<div className="bg-gray-100 rounded-lg p-4">
+						<h4 className="font-bold mb-2">Fun Fact</h4>
+						<p>{colorInfo.funFact}</p>
+					</div>
+				</div>
+			</section>
+          </section></>
 		);
 	  case "orange":
         return (
