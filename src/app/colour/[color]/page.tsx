@@ -749,7 +749,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						{/* Collage Section */}
 						<div className="flex gap-4">
 						<img
-							src="/grey-2.png"
+							src="/grey-3.png"
 							alt="White Activity"
 							className="rounded-lg shadow-lg w-full object-cover"
 						/>
@@ -767,7 +767,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						{/* Collage Section */}
 						<div className="flex gap-4">
 						<img
-							src="/grey-3.png"
+							src="/grey-2.png"
 							alt="White Activity"
 							className="rounded-lg shadow-lg w-full object-cover"
 						/>
