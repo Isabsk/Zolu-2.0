@@ -45,7 +45,7 @@ const colorData = [
 		color: "bg-gray-400",
 		date: "2025-09-27",
 		funFact: "Apple’s “Space Grey” became so iconic that other tech brands rushed to release their own grey editions.",
-		quizUrl: "https://forms.fillout.com/t/yellow-quiz",
+		quizUrl: "https://forms.fillout.com/t/3WpQPhw8Gpus",
 	},
 	{
 		name: "Orange",
