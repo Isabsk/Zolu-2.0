@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { LockClosedIcon } from "@heroicons/react/24/outline";
 import Slider from "@/app/components/Slider";
+import PeacockGreenMatchGame from "@/app/games/PeacockGreenMatchGame"
 
 const colorData = [
 	{
@@ -580,71 +581,57 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 					/>
 					</div>
 				<div className="whitespace-pre-line text-lg my-12">
+					<p className="mb-3">
+						&quot;Green isn&apos;t just a colour we see, it&apos;s a feeling we experience.&quot; It soothes, restores, 
+						and connects us with nature.
+					</p>
+
+					<p className="mb-3">
+						On day five of Navaratri, Maa Skandamata embodies nurturing love and harmony, with green symbolising peace, growth, 
+						and prosperous new beginnings.
+					</p>
+
+					<p className="mb-3">
+						Brands know the deep connection we have with green and its promise of freshness and growth. Here are some iconic 
+						brands and their campaigns where they turned this instinctive response into powerful storytelling.
+					</p>
+
+					<ul className="list-disc list-inside space-y-2 mb-4">
+						<li>
+						<strong>Tropicana</strong> &mdash; Tropicana replaced the dot on the &quot;i&quot; with a green leaf, reinforcing 
+						its natural image and adding freshness to the logo.
+						</li>
+						<li>
+						<strong>Spotify</strong> &mdash; Spotify&apos;s vibrant green reflects its youthful energy, spirit of innovation, 
+						and dynamic approach to music streaming.
+						</li>
+						<li>
+						<strong>Animal Planet</strong> &mdash; Animal Planet uses green to evoke nature, harmony, and life, reinforcing 
+						its focus on wildlife, conservation, and adventure.
+						</li>
+						<li>
+						<strong>Starbucks</strong> &mdash; Starbucks&apos;s green turns every café into a &quot;third place,&quot; a cozy, 
+						welcoming spot between home and work where community and calm meet.
+						</li>
+						<li>
+						<strong>Lacoste</strong> &mdash; Lacoste is producing 1,775 limited-edition polos, each representing the remaining 
+						population of one of 10 endangered species, in partnership with the IUCN to support wildlife conservation.
+						</li>
+						<li>
+						<strong>Lacoste &quot;SAVE OUR SPECIES&quot; campaign</strong>
+						</li>
+					</ul>
+
+					<p className="mb-3">
+						See the pattern? Each of these brands taps into the subconscious feelings green awakens in us — a feeling of trust, 
+						freshness, progress, and connection.
+					</p>
+
+					<h3 className="text-xl font-semibold mt-6 mb-2">Here&apos;s how Zoho uses green</h3>
 					<p>
-						<strong>“Green isn&apos;t just a colour we see, it&apos;s a feeling we experience.”</strong>  
-						It soothes, restores, and connects us to nature.
-					</p>
-
-					<p className="mt-4">
-						<em>
-						On day five of Navratri, Maa Skandamata embodies nurturing love and harmony, 
-						with green symbolising peace, growth, and prosperous new beginnings.
-						</em>
-					</p>
-
-					<p className="mt-4">
-						Brands know how deeply we connect with green&apos;s promise of freshness and growth, 
-						here are some iconic brands and their campaigns where they turned this instinctive 
-						response into powerful storytelling.
-					</p>
-
-					<p className="mt-4">
-						<strong>Tropicana —</strong> Tropicana replaced the dot on the “i” with a green leaf, 
-						reinforcing its natural image and adding freshness to the logo.
-					</p>
-
-					<p className="mt-2">
-						<strong>Spotify —</strong> Spotify&apos;s vibrant green reflects its youthful energy, 
-						spirit of innovation, and dynamic approach to music streaming.
-					</p>
-
-					<p className="mt-2">
-						<strong>Animal Planet —</strong> Animal Planet uses green to evoke nature, harmony, 
-						and life, reinforcing its focus on wildlife, conservation, and adventure.
-					</p>
-
-					<p className="mt-2">
-						<strong>Starbucks —</strong> Starbucks&apos;s green turns every café into a “third place,” 
-						a cozy, welcoming spot between home and work where community and calm meet.
-					</p>
-
-					<p className="mt-2">
-						<strong>Lacoste —</strong> Lacoste is producing 1,775 limited-edition polos, each 
-						representing the remaining population of one of 10 endangered species, in partnership 
-						with the IUCN to support wildlife conservation.
-					</p>
-
-					<p className="mt-2">
-						<a 
-						href="https://youtu.be/qsbCoaUxnhI?feature=shared" 
-						target="_blank" 
-						rel="noopener noreferrer" 
-						className="text-green-600 underline"
-						>
-						Lacoste &quot;SAVE OUR SPECIES&quot; campaign
-						</a>
-					</p>
-
-					<p className="mt-4">
-						See the pattern? Each of these brands taps into the subconscious feelings green awakens 
-						in us — trust, freshness, progress, and connection.
-					</p>
-
-					<p className="mt-4">
-						<strong>How does Zoho use green?</strong> Green in Zoho is used to signify growth, 
-						productivity, and freshness. In a suite of tools focused on business efficiency, 
-						project management, and creativity, green highlights features or icons that represent 
-						action, progress, and positive outcomes.
+						Green in Zoho is used to signify growth, productivity, and freshness. In a suite of tools focused on business 
+						efficiency, project management, and creativity, green highlights features or icons that represent action, progress, 
+						and positive outcomes.
 					</p>
 				</div>
 				{/* Collage Section */}
@@ -1052,14 +1039,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 				</div>
 				<h2 className="text-2xl font-bold mb-4 mt-20">Peel and pair</h2>
 				<div className="rounded-lg border border-orange-600 overflow-hidden shadow-lg mt-6" style={{ height: "550px" }}>
-					<iframe
-						src="https://p.interacty.me/5f7a4f35bab4597a/iframe.html"
-						width="100%"
-						height="100%"
-						allowFullScreen
-						title={`${colorInfo.name} Quiz`}
-						className="w-full h-full border-0"
-					/>
+					<PeacockGreenMatchGame />
 				</div>
 			</section>
             <section className="max-w-2xl mx-auto px-4">
