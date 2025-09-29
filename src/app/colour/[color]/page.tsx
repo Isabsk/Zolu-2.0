@@ -656,7 +656,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						shades of green and festive joy.
 					</p>
 
-					<p className="font-semibold text-green-800">
+					<p className="font-semibold text-green-600 mb-4">
 						Bring in peace, growth, and harmony this Navaratri!
 					</p>
 				</div>
