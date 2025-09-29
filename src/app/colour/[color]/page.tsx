@@ -741,7 +741,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 							1980s : Luxury Emerges
 						</h3>
 						<p className="mb-4">
-							Mercedes-Benz popularized silver-grey as a symbol of class, refinement, and cutting-edge engineering. 
+							Mercedes-Benz popularized silver grey as a symbol of class, refinement, and cutting edge engineering. 
 							The brand&apos;s Automobile campaign in 1981 &#40;by GREY Brazil&#41; emphasized luxury and precision, 
 							reinforcing why grey was the colour of sophistication and setting a benchmark that other premium brands soon followed.
 						</p>
@@ -760,7 +760,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						</h3>
 						<p className="mb-4">
 							Apple dominated the tech world with its Grey Revolution, showcasing iMacs, iPods, and 
-							MacBooks in sleek silver-grey aluminium. This campaign highlighted minimalism, durability, 
+							MacBooks in sleek silver grey aluminium. This campaign highlighted minimalism, durability, 
 							and premium design, setting a trend that influenced phones, laptops, and gaming consoles 
 							for years to come.
 						</p>
@@ -796,7 +796,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 					
 				<div className="mb-2 mt-10 text-xl font-medium">
 					<p className="mb-4">
-					Life isn&apos;t always black and white, there is always a Grey area — 
+					Life isn&apos;t always black and white, there is always a Grey area,  
 					get into that zone by wearing Grey today!!
 					</p>
 
