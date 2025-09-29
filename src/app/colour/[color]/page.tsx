@@ -647,16 +647,17 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 					<p className="mb-3">Feel the Nature Vibes By Wearing Green</p>
 
 					<p className="mb-3">
-					As we connect to the earth, wear green and celebrate the spirit of Navaratri!
+						As we connect to the earth, wear green and celebrate the spirit of Navaratri!
 					</p>
 
 					<p className="mb-3">
-					Post your selfies and <strong>golu showcases</strong> on <strong>Connect</strong> in the comments — 
-					let&apos;s fill our feed with refreshing shades of green and festive joy.
+						Post your selfies and <strong className="text-green-600">Golu showcases</strong> on 
+						<strong className="text-green-600"> Connect</strong> in the comments, filling our feed with refreshing 
+						shades of green and festive joy.
 					</p>
 
-					<p className="font-semibold">
-					Bring in peace, growth, and harmony this Navaratri!
+					<p className="font-semibold text-green-800">
+						Bring in peace, growth, and harmony this Navaratri!
 					</p>
 				</div>
 				{/* Connect Post Button */}
