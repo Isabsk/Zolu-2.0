@@ -728,8 +728,8 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 					/>
 					</div>
 				<div className="whitespace-pre-line text-lg my-12">
-					<h2 className="text-2xl font-bold mb-4">From Dull to Dynamic: Grey&apos;s Journey</h2>
-					<div className="whitespace-pre-line text-lg my-12">
+					<h2 className="text-2xl font-bold mb-6">From Dull to Dynamic: Grey&apos;s Journey</h2>
+					<div className="whitespace-pre-line text-lg mb-12">
 
 						<p className="mb-6">
 							Grey was never the “flashy” colour of festivals, quietly standing on Day 6 to symbolize 
