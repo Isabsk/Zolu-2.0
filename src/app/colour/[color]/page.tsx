@@ -58,9 +58,9 @@ const colorData = [
 	{
 		name: "Peacock Green",
 		color: "bg-teal-700",
-		date: "2026-09-29",
+		date: "2025-09-29",
 		funFact: "Peacock Green represents elegance and uniqueness, inspired by the majestic feathers of a peacock.",
-		quizUrl: "https://forms.fillout.com/t/yellow-quiz",
+		quizUrl: "https://forms.fillout.com/t/6zKW4w8dKmus",
 	},
 	{
 		name: "Pink",
@@ -994,43 +994,104 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 					/>
 				</div>
 				<div className="whitespace-pre-line text-lg my-12">
-					<p className="mb-3">
+					<h2 className="text-2xl font-bold mb-4">
+						Peacock Green Effect:
+					</h2>
+
+					<p className="mb-4">
 						Peacock green symbolises grace, elegance, and self-expression. It represents confidence without apology, like the 
-						peacock spreading its feathers. Green embodies balance, renewal, luxury, and royalty.
+						peacock spreading its feathers. Green embodies balance, renewal, luxury, and royalty. Its jewel-tone quality makes 
+						it feel rich, exotic, and regal.
 					</p>
 
-					<p className="mb-3">
-						Its jewel-tone quality makes it feel rich, exotic, and regal. In many cultures, peacock green is linked with 
-						opulence, sophistication, and splendour. The green side represents life, growth, and harmony. The blue undertone 
-						adds calm, wisdom, and depth. Together, peacock green reflects the balance between vitality and serenity.
-					</p>
-
-					<p className="mb-3">
-						Because peacock feathers shimmer differently in light, the colour suggests mystery, adaptability, and spiritual 
-						awakening. It&apos;s often tied to renewal and transformation.
-					</p>
-
-					<p className="mb-3">
+					<p className="mb-4">
 						From a marketing perspective, green is easy on the eyes, and with blue tones added, it often feels deeper and 
-						soothing. So for visual identity, it helps a brand seem approachable yet sophisticated. It also adds uniqueness 
+						soothing. So, for visual identity, it helps a brand seem approachable yet sophisticated. It also adds uniqueness 
 						and individuality.
 					</p>
 
-					<p className="mb-3">
-						So of the brands that you use, which of them do you think have the peacock green uniqueness in them or which 
-						brands you know are there that have it as their brand colour?
+					<h3 className="text-xl font-semibold mt-6 mb-2">Kohler Campaign</h3>
+					<p className="mb-4">
+						Kohler, the global lifestyle brand, is introducing a new range of colours that encapsulate the vibrancy and 
+						grandeur of India&apos;s diversity. This creative offering from Kohler is driven by the philosophy of innovation 
+						and excellence. The company aims to make bathrooms the centrepiece of the home. The campaign brings alive the 
+						story behind the three colours — Peacock, Truffle, and Thunder Grey. The version of Peacock is rendered as a shade 
+						of teal, evoking an ethnic feel to give a vibrant look of the Indian iconic bird.
 					</p>
 
-					<p className="mb-3">
-						What is the peacock green uniqueness and individuality in the project that you work in? 
-						<br /><br />
-						Let us know.
+					<div className="flex gap-4">
+						<img
+							src="/pg-1.jpeg"
+							alt="White Activity"
+							className="rounded-lg shadow-lg w-full object-cover"
+						/>
+					</div>
+
+					<h3 className="text-xl font-semibold mt-6 mb-2">
+						Gucci Spring/Summer 2016 Campaign
+					</h3>
+					<p className="mb-4">
+						Peacock green has great importance in the fashion industry because it&apos;s more than just a pretty shade. 
+						It combines luxury, cultural symbolism, and marketing power — helping designers create garments that are both 
+						timeless and headline-grabbing. One of the best examples of this was the Gucci Spring/Summer 2016 campaign. 
+						Gucci&apos;s Spring/Summer 2016 campaign embraced the concept of &quot;peacocking,&quot; using bold and vibrant 
+						colours, including peacock green, to make a statement.
+					</p>
+
+					<div className="flex gap-4">
+						<img
+							src="/pg-2.jpg"
+							alt="White Activity"
+							className="rounded-lg shadow-lg w-full object-cover"
+						/>
+					</div>
+
+					<h3 className="text-xl font-semibold mt-6 mb-2">
+						JioCinema&apos;s Peacock Hub Campaign
+					</h3>
+					<p className="mb-4">
+						JioCinema&apos;s Peacock Hub campaign blended Indian culture and modern visuals in public spaces to create 
+						high-impact outdoor advertising. The campaign achieved strong emotional appeal, visual consistency, and digital 
+						engagement, proving creativity drives memorable brand experiences.
+					</p>
+
+					<div className="flex gap-4">
+						<img
+							src="/pg-3.jpg"
+							alt="White Activity"
+							className="rounded-lg shadow-lg w-full object-cover"
+						/>
+					</div>
+
+					<h3 className="text-xl font-semibold mt-6 mb-2">
+						Your Take
+					</h3>
+					<p className="mb-4">
+						Which of the brands you know do you think stand out with a touch of peacock green? Why do you think this bold, 
+						unique colour isn&apos;t more widely used as a brand signature? And in your own project, how does peacock green 
+						showcase individuality and creativity? We&apos;d love to hear your take.
+					</p>
+				</div>
+				<div className="text-xl font-medium space-y-3 pt-10">
+					<p>Feel the Regal Vibe with Peacock Green</p>
+
+					<p>
+						Channel elegance, confidence, and individuality by wearing peacock green and celebrating the spirit of Navaratri!
+					</p>
+
+					<p>
+						Post your selfies and <strong>golu showcases</strong> on <strong>Connect</strong> in the comments — 
+						let's fill our feed with rich shades of peacock green and festive pride.
+					</p>
+
+					<p className="font-semibold">
+						Bring in grace, balance, and a royal charm this Navaratri!
 					</p>
 				</div>
 				{/* Connect Post Button */}
 				<div className="mt-6 w-full text-center">
 					<a
-						href="https://connect.zoho.in/portal/intranet/forum/post/take-the-festivity-home-with-you-this-weekend-zolu-2-0"
+						href="https://connect.zoho.in/portal/intranet/forum/post/celebrate-navaratri-with-zolu-2-0-%E2%80%93-a-zoho-school-of-business-initiative"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="inline-block px-8 py-3 rounded-lg font-semibold text-white shadow-lg bg-gradient-to-r from-pink-500 via-indigo-500 to-yellow-400 bg-[length:200%_200%] animate-gradient-x transition hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-indigo-400"
@@ -1038,8 +1099,8 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						<button id="dropPics">Drop Your Pics Here</button>
 					</a>
 				</div>
-				<h2 className="text-2xl font-bold mb-4 mt-20">Peel and pair</h2>
-				<div className="rounded-lg border border-orange-600 overflow-hidden shadow-lg mt-6" style={{ height: "550px" }}>
+				<h2 className="text-2xl font-bold mb-4 mt-20">Drag and match</h2>
+				<div className="rounded-lg border border-emerald-600 overflow-hidden shadow-lg mt-6">
 					<PeacockGreenMatchGame />
 				</div>
 			</section>

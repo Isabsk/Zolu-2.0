@@ -68,14 +68,14 @@ const PeacockGreenMatchGame = () => {
                 src={img.src}
                 alt={img.name}
                 draggable="true"
+                className="w-full h-[150px]"
                 onDragStart={(e) => e.dataTransfer.setData("text/plain", img.name)}
                 style={{
-                  width: "100%",
-                  maxWidth: "200px",
                   margin: "10px auto",
                   cursor: "grab",
                   border: "3px solid #00695c",
                   borderRadius: "10px",
+                  objectFit: "cover", // Ensure the image fits properly
                 }}
               />
             ) : null
@@ -86,18 +86,22 @@ const PeacockGreenMatchGame = () => {
           {names.map((name) => (
             <div
               key={name.id}
-              className="name-box"
+              className="name-box w-full h-[150px]"
               onDragOver={(e) => e.preventDefault()}
               onDrop={(e) => handleDrop(e, name.name)}
               style={{
-                padding: "45px",
-                margin: "15px 0",
+                padding: "10px", // Adjust padding to fit content
+                margin: "10px auto",
                 backgroundColor: "#b2dfdb",
                 textAlign: "center",
                 borderRadius: "10px",
                 cursor: "pointer",
                 border: "2px solid #004d40",
                 transition: "background-color 0.3s",
+                display: "flex", // Center the text
+                justifyContent: "center",
+                alignItems: "center",
+                fontSize: "0.9em", // Adjust font size for better fit
               }}
             >
               {name.description}

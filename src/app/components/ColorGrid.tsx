@@ -10,7 +10,7 @@ const colorData = [
 	{ name: "Green", color: "bg-green-500", date: "2025-09-26", gradient: "bg-gradient-to-br from-green-400 via-green-500 to-emerald-400" },
 	{ name: "Grey", color: "bg-gray-400", date: "2025-09-27", gradient: "bg-gradient-to-br from-gray-400 via-gray-500 to-gray-300" },
 	{ name: "Orange", color: "bg-orange-500", date: "2025-09-28", gradient: "bg-gradient-to-br from-orange-400 via-orange-500 to-yellow-400" },
-	{ name: "Peacock Green", color: "bg-teal-700", date: "2026-09-29", gradient: "bg-gradient-to-br from-teal-700 via-green-400 to-cyan-300" },
+	{ name: "Peacock Green", color: "bg-teal-700", date: "2025-09-29", gradient: "bg-gradient-to-br from-teal-700 via-green-400 to-cyan-300" },
 	{ name: "Pink", color: "bg-pink-400", date: "2025-09-30", gradient: "bg-gradient-to-br from-pink-400 via-pink-300 to-rose-300" },
 ];
 
