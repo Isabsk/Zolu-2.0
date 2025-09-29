@@ -617,13 +617,20 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						<strong>Lacoste</strong> &mdash; Lacoste is producing 1,775 limited-edition polos, each representing the remaining 
 						population of one of 10 endangered species, in partnership with the IUCN to support wildlife conservation.
 						</li>
-						<li>
-						<strong>Lacoste &quot;SAVE OUR SPECIES&quot; campaign</strong>
-						</li>
+						<strong>
+							<a 
+							href="https://youtu.be/qsbCoaUxnhI?feature=shared" 
+							target="_blank" 
+							rel="noopener noreferrer"
+							className="text-green-600 hover:underline"
+							>
+							Lacoste "SAVE OUR SPECIES" campaign
+							</a>
+						</strong>
 					</ul>
 
 					<p className="mb-3">
-						See the pattern? Each of these brands taps into the subconscious feelings green awakens in us — a feeling of trust, 
+						See the pattern? Each of these brands taps into the subconscious feelings green awakens in us a feeling of trust, 
 						freshness, progress, and connection.
 					</p>
 
