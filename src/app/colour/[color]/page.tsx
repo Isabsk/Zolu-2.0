@@ -1015,7 +1015,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						Kohler, the global lifestyle brand, is introducing a new range of colours that encapsulate the vibrancy and 
 						grandeur of India&apos;s diversity. This creative offering from Kohler is driven by the philosophy of innovation 
 						and excellence. The company aims to make bathrooms the centrepiece of the home. The campaign brings alive the 
-						story behind the three colours — Peacock, Truffle, and Thunder Grey. The version of Peacock is rendered as a shade 
+						story behind the three colours, Peacock, Truffle, and Thunder Grey. The version of Peacock is rendered as a shade 
 						of teal, evoking an ethnic feel to give a vibrant look of the Indian iconic bird.
 					</p>
 
@@ -1032,7 +1032,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 					</h3>
 					<p className="mb-4">
 						Peacock green has great importance in the fashion industry because it&apos;s more than just a pretty shade. 
-						It combines luxury, cultural symbolism, and marketing power — helping designers create garments that are both 
+						It combines luxury, cultural symbolism, and marketing power, helping designers create garments that are both 
 						timeless and headline-grabbing. One of the best examples of this was the Gucci Spring/Summer 2016 campaign. 
 						Gucci&apos;s Spring/Summer 2016 campaign embraced the concept of &quot;peacocking,&quot; using bold and vibrant 
 						colours, including peacock green, to make a statement.
@@ -1073,19 +1073,18 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 					</p>
 				</div>
 				<div className="text-xl font-medium space-y-3 pt-10">
-					<p>Feel the Regal Vibe with Peacock Green</p>
+					<p>Peacock Green is rare, but you don’t have to be.</p>
 
 					<p>
-						Channel elegance, confidence, and individuality by wearing peacock green and celebrating the spirit of Navaratri!
+						Wear peacock green and embody the beauty of a peacock!
 					</p>
 
 					<p>
-						Post your selfies and <strong>golu showcases</strong> on <strong>Connect</strong> in the comments — 
-						let&apos;s fill our feed with rich shades of peacock green and festive pride.
+						Spread out your feathers and embody beauty by posting on the original <strong>Connect Post</strong> comments!
 					</p>
 
 					<p className="font-semibold">
-						Bring in grace, balance, and a royal charm this Navaratri!
+						Let’s make this Navaratri shine with elegance and pride!
 					</p>
 				</div>
 				{/* Connect Post Button */}
