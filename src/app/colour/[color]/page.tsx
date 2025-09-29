@@ -57,7 +57,7 @@ const colorData = [
 	{
 		name: "Peacock Green",
 		color: "bg-teal-700",
-		date: "2025-09-29",
+		date: "2026-09-29",
 		funFact: "Peacock Green represents elegance and uniqueness, inspired by the majestic feathers of a peacock.",
 		quizUrl: "https://forms.fillout.com/t/yellow-quiz",
 	},
@@ -992,7 +992,85 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 		);
 	  case "peacock green":
         return (
-			<></>
+			<><section className="max-w-2xl mx-auto py-10 px-4">
+			<section className="max-w-2xl mx-auto py-10 px-4">
+				<h2 className="text-2xl font-bold mb-4">Take the Quiz!</h2>
+				<div className="rounded-lg overflow-hidden shadow-lg" style={{ height: "550px" }}>
+					<iframe
+						src={colorInfo.quizUrl}
+						width="100%"
+						height="100%"
+						allowFullScreen
+						title={`${colorInfo.name} Quiz`}
+						className="w-full h-full border-0"
+					/>
+				</div>
+				<div className="whitespace-pre-line text-lg my-12">
+					<p className="mb-3">
+						Peacock green symbolises grace, elegance, and self-expression. It represents confidence without apology, like the 
+						peacock spreading its feathers. Green embodies balance, renewal, luxury, and royalty.
+					</p>
+
+					<p className="mb-3">
+						Its jewel-tone quality makes it feel rich, exotic, and regal. In many cultures, peacock green is linked with 
+						opulence, sophistication, and splendour. The green side represents life, growth, and harmony. The blue undertone 
+						adds calm, wisdom, and depth. Together, peacock green reflects the balance between vitality and serenity.
+					</p>
+
+					<p className="mb-3">
+						Because peacock feathers shimmer differently in light, the colour suggests mystery, adaptability, and spiritual 
+						awakening. It&apos;s often tied to renewal and transformation.
+					</p>
+
+					<p className="mb-3">
+						From a marketing perspective, green is easy on the eyes, and with blue tones added, it often feels deeper and 
+						soothing. So for visual identity, it helps a brand seem approachable yet sophisticated. It also adds uniqueness 
+						and individuality.
+					</p>
+
+					<p className="mb-3">
+						So of the brands that you use, which of them do you think have the peacock green uniqueness in them or which 
+						brands you know are there that have it as their brand colour?
+					</p>
+
+					<p className="mb-3">
+						What is the peacock green uniqueness and individuality in the project that you work in? 
+						<br /><br />
+						Let us know.
+					</p>
+				</div>
+				{/* Connect Post Button */}
+				<div className="mt-6 w-full text-center">
+					<a
+						href="https://connect.zoho.in/portal/intranet/forum/post/take-the-festivity-home-with-you-this-weekend-zolu-2-0"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="inline-block px-8 py-3 rounded-lg font-semibold text-white shadow-lg bg-gradient-to-r from-pink-500 via-indigo-500 to-yellow-400 bg-[length:200%_200%] animate-gradient-x transition hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-indigo-400"
+					>
+						<button id="dropPics">Drop Your Pics Here</button>
+					</a>
+				</div>
+				<h2 className="text-2xl font-bold mb-4 mt-20">Peel and pair</h2>
+				<div className="rounded-lg border border-orange-600 overflow-hidden shadow-lg mt-6" style={{ height: "550px" }}>
+					<iframe
+						src="https://p.interacty.me/5f7a4f35bab4597a/iframe.html"
+						width="100%"
+						height="100%"
+						allowFullScreen
+						title={`${colorInfo.name} Quiz`}
+						className="w-full h-full border-0"
+					/>
+				</div>
+			</section>
+            <section className="max-w-2xl mx-auto px-4">
+				<div className="bg-white rounded-xl shadow-xl p-8">
+					<div className="bg-gray-100 rounded-lg p-4">
+						<h4 className="font-bold mb-2">Fun Fact</h4>
+						<p>{colorInfo.funFact}</p>
+					</div>
+				</div>
+			</section>
+          </section></>
 		);
 	  case "pink":
         return (
