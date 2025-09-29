@@ -470,7 +470,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 				{/* Connect Post Button */}
 				<div className="mt-6 w-full text-center">
 					<a
-						href="https://connect.zoho.in/portal/intranet/forum/post/with-gratitude-we-continue-celebrating-zolu-2-0"
+						href="https://connect.zoho.in/portal/intranet/forum/post/celebrate-navaratri-with-zolu-2-0-%E2%80%93-a-zoho-school-of-business-initiative"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="inline-block px-8 py-3 rounded-lg font-semibold text-white shadow-lg bg-gradient-to-r from-pink-500 via-indigo-500 to-yellow-400 bg-[length:200%_200%] animate-gradient-x transition hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-indigo-400"
@@ -526,7 +526,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 				{/* Connect Post Button */}
 				<div className="mt-6 w-full text-center">
 					<a
-						href="https://connect.zoho.in/portal/intranet/forum/post/with-gratitude-we-continue-celebrating-zolu-2-0"
+						href="https://connect.zoho.in/portal/intranet/forum/post/celebrate-navaratri-with-zolu-2-0-%E2%80%93-a-zoho-school-of-business-initiative"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="inline-block px-8 py-3 rounded-lg font-semibold text-white shadow-lg bg-gradient-to-r from-pink-500 via-indigo-500 to-yellow-400 bg-[length:200%_200%] animate-gradient-x transition hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-indigo-400"
@@ -675,7 +675,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 				{/* Connect Post Button */}
 				<div className="mt-6 w-full text-center">
 					<a
-						href="https://connect.zoho.in/portal/intranet/forum/post/take-the-festivity-home-with-you-this-weekend-zolu-2-0"
+						href="https://connect.zoho.in/portal/intranet/forum/post/celebrate-navaratri-with-zolu-2-0-%E2%80%93-a-zoho-school-of-business-initiative0"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="inline-block px-8 py-3 rounded-lg font-semibold text-white shadow-lg bg-gradient-to-r from-pink-500 via-indigo-500 to-yellow-400 bg-[length:200%_200%] animate-gradient-x transition hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-indigo-400"
@@ -738,7 +738,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						</p>
 
 						<h3 className="text-xl font-semibold mt-6 mb-2">
-							1980s &ndash; Luxury Emerges
+							1980s : Luxury Emerges
 						</h3>
 						<p className="mb-4">
 							Mercedes-Benz popularized silver-grey as a symbol of class, refinement, and cutting-edge engineering. 
@@ -756,7 +756,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						</div>
 
 						<h3 className="text-xl font-semibold mt-10 mb-2">
-							2000s &ndash; The Grey Renaissance
+							2000s : The Grey Renaissance
 						</h3>
 						<p className="mb-4">
 							Apple dominated the tech world with its Grey Revolution, showcasing iMacs, iPods, and 
@@ -774,7 +774,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						</div>
 
 						<h3 className="text-xl font-semibold mt-10 mb-2">
-							2020s &ndash; Grey Days
+							2020s : Grey Days
 						</h3>
 						<p className="mb-4">
 							New Balance, the iconic footwear brand known for blending performance with lifestyle, 
@@ -812,7 +812,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 				{/* Connect Post Button */}
 				<div className="mt-6 w-full text-center">
 					<a
-						href="https://connect.zoho.in/portal/intranet/forum/post/take-the-festivity-home-with-you-this-weekend-zolu-2-0"
+						href="https://connect.zoho.in/portal/intranet/forum/post/celebrate-navaratri-with-zolu-2-0-%E2%80%93-a-zoho-school-of-business-initiative"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="inline-block px-8 py-3 rounded-lg font-semibold text-white shadow-lg bg-gradient-to-r from-pink-500 via-indigo-500 to-yellow-400 bg-[length:200%_200%] animate-gradient-x transition hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-indigo-400"
@@ -852,7 +852,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 					Ever noticed how some colors just make you feel alive? That&apos;s orange for you. 
 					A hue that grabs attention without shouting, sparks curiosity, and somehow makes 
 					everything feel a little more fun. On Day 7 of Navaratri, orange isn&apos;t just a 
-					color — it&apos;s courage, positivity, and a burst of energy ready to push you forward.
+					color, it&apos;s courage, positivity, and a burst of energy ready to push you forward.
 					</p>
 
 					<p className="mb-4">
@@ -960,7 +960,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 				{/* Connect Post Button */}
 				<div className="mt-6 w-full text-center">
 					<a
-						href="https://connect.zoho.in/portal/intranet/forum/post/take-the-festivity-home-with-you-this-weekend-zolu-2-0"
+						href="https://connect.zoho.in/portal/intranet/forum/post/celebrate-navaratri-with-zolu-2-0-%E2%80%93-a-zoho-school-of-business-initiative"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="inline-block px-8 py-3 rounded-lg font-semibold text-white shadow-lg bg-gradient-to-r from-pink-500 via-indigo-500 to-yellow-400 bg-[length:200%_200%] animate-gradient-x transition hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-indigo-400"
