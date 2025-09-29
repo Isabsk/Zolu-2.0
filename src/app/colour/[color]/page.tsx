@@ -1081,7 +1081,7 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 
 					<p>
 						Post your selfies and <strong>golu showcases</strong> on <strong>Connect</strong> in the comments — 
-						let's fill our feed with rich shades of peacock green and festive pride.
+						let&apos;s fill our feed with rich shades of peacock green and festive pride.
 					</p>
 
 					<p className="font-semibold">
