@@ -2,6 +2,7 @@ import Link from "next/link";
 import { LockClosedIcon } from "@heroicons/react/24/outline";
 import Slider from "@/app/components/Slider";
 import PeacockGreenMatchGame from "@/app/games/PeacockGreenMatchGame"
+import FlappyPinkBird from "@/app/games/FlappyPinkBird"
 
 const colorData = [
 	{
@@ -65,9 +66,9 @@ const colorData = [
 	{
 		name: "Pink",
 		color: "bg-pink-400",
-		date: "2026-09-30",
-		funFact: "Pink symbolizes compassion, love, and kindness — often associated with positivity and warmth.",
-		quizUrl: "https://forms.fillout.com/t/yellow-quiz",
+		date: "2025-09-30",
+		funFact: "Did you know the Barbie movie production caused a global shortage of pink paint? That’s how powerful this color can be!",
+		quizUrl: "https://forms.fillout.com/t/eD2aPZnYTaus",
 	}
 ];
 
@@ -1062,14 +1063,6 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 						engagement, proving creativity drives memorable brand experiences.
 					</p>
 
-					<div className="flex gap-4">
-						<img
-							src="/pg-3.jpg"
-							alt="White Activity"
-							className="rounded-lg shadow-lg w-full object-cover"
-						/>
-					</div>
-
 					<h3 className="text-xl font-semibold mt-6 mb-2">
 						Your Take
 					</h3>
@@ -1122,7 +1115,121 @@ export default function ColorPage({ params }: { params: { color: string } }) {
 		);
 	  case "pink":
         return (
-			<></>
+			<><section className="max-w-2xl mx-auto py-10 px-4">
+			<section className="max-w-2xl mx-auto py-10 px-4">
+				<h2 className="text-2xl font-bold mb-4">Take the Quiz!</h2>
+				<div className="rounded-lg overflow-hidden shadow-lg" style={{ height: "550px" }}>
+					<iframe
+						src={colorInfo.quizUrl}
+						width="100%"
+						height="100%"
+						allowFullScreen
+						title={`${colorInfo.name} Quiz`}
+						className="w-full h-full border-0"
+					/>
+				</div>
+				<div className="whitespace-pre-line text-lg my-12">
+
+					<p className="mb-4">
+						Are colours really a matter of choice, or are they shaped by the conditioning around us? That question first struck me when I watched my three-year-old niece, <strong>Chillu</strong>, a proud devotee of pink. Whether it’s a cup, a crayon, or a toy, if it’s pink, it belongs to her.
+					</p>
+
+					<p className="mb-4">
+						At first, it seemed like nothing more than a childhood preference. But soon, I noticed how much her choice was shaped by what she saw around her. Toys, ads, and the subtle cues of adults reinforced the code: <em>pink is for girls, blue is for boys</em>. Chillu, like millions of children, didn’t just pick pink; she inherited its cultural baggage.
+					</p>
+
+					<p className="mb-4">
+						A striking example of pink’s cultural influence came during the Women’s Cricket World Cup, when Google used a celebratory doodle that leaned into shades of pink. It was not only visually striking but also symbolic, connecting the sport with a color traditionally linked to femininity, and reimagining it as a marker of strength, celebration, and progress. In that moment, pink became a banner for representation on a global digital stage.
+					</p>
+
+					<div className="flex gap-4 mb-6">
+						<img
+							src="/pink-3.png"
+							alt="White Activity"
+							className="rounded-lg shadow-lg w-full object-cover"
+						/>
+					</div>
+
+					<p className="mb-4">
+						What makes this fascinating is that brands have long understood and capitalized on that very conditioning. In marketing, pink is one of the most powerful signifiers of identity, emotion, and aspiration. Consider <strong>Barbie</strong>, a brand that built an empire on pink. Every campaign, from packaging to Dreamhouse billboards, wasn’t just about a doll; it was about selling a lifestyle drenched in a shade that stood for femininity, fun, and self-expression. The recent “Barbie” movie campaign doubled down on this, flooding entire cityscapes and digital feeds in pink, making the color itself the campaign.
+					</p>
+
+					<div className="flex gap-4 mb-6">
+						<img
+							src="/pink-1.png"
+							alt="White Activity"
+							className="rounded-lg shadow-lg w-full object-cover"
+						/>
+					</div>
+
+					<p className="mb-4">
+						<strong>Nykaa</strong> has also harnessed pink brilliantly in India. Its hot pink branding isn’t just about looking attractive. It positions the company as approachable, modern, and aspirational. The color aligns with Nykaa’s target audience: women seeking beauty, empowerment, and self-indulgence. Their campaigns, from the “What Makes You Beautiful” ads to influencer-driven pink-themed unboxings, consistently use the shade as a cue for confidence and glamour.
+					</p>
+
+					<div className="flex gap-4 mb-6">
+						<img
+							src="/pink-2.png"
+							alt="White Activity"
+							className="rounded-lg shadow-lg w-full object-cover"
+						/>
+					</div>
+
+					<p className="mb-4">
+						Even beyond beauty, brands like <strong>Victoria’s Secret</strong> created entire sub-brands (“PINK”) to tap into youthful femininity, while <strong>T-Mobile</strong> adopted magenta to disrupt the dull blues and greys of telecom advertising. Each of these shows how pink is not soft by accident. It is strategically deployed to attract attention, build recall, and carry layered meanings.
+					</p>
+
+					<p className="mb-4">
+						Historically, <strong>Jaipur</strong> painted its walls pink to signal hospitality, and today, brands continue that legacy by using the color to create warmth and welcome. The “pink tax,” where products marketed to women cost more simply because of their packaging and color, shows just how entrenched its commercial value is.
+					</p>
+
+					<div className="flex gap-4 mb-6">
+						<img
+							src="/pink-4.png"
+							alt="White Activity"
+							className="rounded-lg shadow-lg w-full object-cover"
+						/>
+					</div>
+
+					<p className="mb-4">
+						For Chillu, pink is still just a crayon or a cup. But marketers know it’s more than that. It’s a code, a story, and a brand asset that shapes choices before we even realize it. And the biggest lesson is perhaps this: pink will always sell, but whether it empowers or limits depends on how we choose to use it.
+					</p>
+				</div>
+				<div className="text-xl font-medium space-y-3 pt-10">
+					<p>Pink is more than softness. </p>
+
+					<p>
+						It carries power, pride, and personality.
+					</p>
+
+					<p>
+						<strong>Wear Pink to show how strength and tenderness can coexist!</strong>
+					</p>
+				</div>
+				{/* Connect Post Button */}
+				<div className="mt-6 w-full text-center">
+					<a
+						href="https://connect.zoho.in/portal/intranet/forum/post/celebrate-navaratri-with-zolu-2-0-%E2%80%93-a-zoho-school-of-business-initiative"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="inline-block px-8 py-3 rounded-lg font-semibold text-white shadow-lg bg-gradient-to-r from-pink-500 via-indigo-500 to-yellow-400 bg-[length:200%_200%] animate-gradient-x transition hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-indigo-400"
+					>
+						<button id="dropPics">Drop Your Pics Here</button>
+					</a>
+				</div>
+				<h2 className="text-2xl font-bold mb-4 mt-20">Drag and match</h2>
+				<div className="rounded-lg border border-emerald-600 overflow-hidden shadow-lg mt-6">
+					<FlappyPinkBird />
+				</div>
+			</section>
+            <section className="max-w-2xl mx-auto px-4">
+				<div className="bg-white rounded-xl shadow-xl p-8">
+					<div className="bg-gray-100 rounded-lg p-4">
+						<h4 className="font-bold mb-2">Fun Fact</h4>
+						<p>{colorInfo.funFact}</p>
+					</div>
+				</div>
+			</section>
+          </section></>
 		);			
       default:
         return (
