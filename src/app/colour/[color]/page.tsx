@@ -65,7 +65,7 @@ const colorData = [
 	{
 		name: "Pink",
 		color: "bg-pink-400",
-		date: "2025-09-30",
+		date: "2026-09-30",
 		funFact: "Pink symbolizes compassion, love, and kindness — often associated with positivity and warmth.",
 		quizUrl: "https://forms.fillout.com/t/yellow-quiz",
 	}
